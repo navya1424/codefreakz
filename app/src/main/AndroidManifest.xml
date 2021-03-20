@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.educationalApp.Login"></activity>
+        <activity android:name="com.example.educationalApp.CProgramming"></activity>
+        <activity android:name="com.example.educationalApp.CP" />
+        <activity android:name="com.example.educationalApp.Dsa" />
+        <activity android:name="com.example.educationalApp.Login" />
         <activity android:name=".FreeCources" />
         <activity android:name=".EngSubs" />
         <activity android:name=".SplashScreen">

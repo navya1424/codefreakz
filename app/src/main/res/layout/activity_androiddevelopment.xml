@@ -33,78 +33,80 @@
 
             <Button
 
+                android:id="@+id/roadmap_btn2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:onClick="Roadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
                 android:text="Road Map 2" />
 
             <Button
-
+                android:id="@+id/yt_playlist1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:onClick="YtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Youtube Recommended Course 1" />
+                android:text="Youtube Recommended Course " />
 
             <Button
+                android:id="@+id/yt_playlist2"
 
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:onClick="YtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Youtube Recommended Course 2" />
-            <Button
+                android:text="Android in one video" />
 
+            <Button
+                android:id="@+id/free_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Youtube Recommended Course 3" />
-            <Button
-
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:onClick="FreeCourse"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
                 android:text="Free Course" />
             <Button
+                android:id="@+id/paid_course"
 
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
+                android:onClick="PaidCourse"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
                 android:text="Paid Course" />
 
             <Button
-
+                android:id="@+id/android"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:onClick="Android"
                 android:background="#FFA500"
                 android:text="Android Interview Questions" />
 
             <Button
-
+                android:id="@+id/project_ideas"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:onClick="ProjectIdeas"
                 android:background="#FFA500"
                 android:text="Project Ideas" />
 

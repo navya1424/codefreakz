@@ -112,7 +112,7 @@ class Login : AppCompatActivity() {
         // auto verification of user.
         val options = PhoneAuthOptions.newBuilder(mAuth)
             .setPhoneNumber(number)       // Phone number to verify
-            .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
+            .setTimeout(50L, TimeUnit.SECONDS) // Timeout and unit
             .setActivity(this)                 // Activity (for callback binding)
             .setCallbacks(mCallBack)          // OnVerificationStateChangedCallbacks
             .build()

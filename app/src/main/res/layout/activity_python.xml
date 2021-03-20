@@ -7,37 +7,6 @@
     android:orientation="vertical" >
 
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:id="@+id/youtube_player_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="xxeBb7OyKXY"
-        tools:ignore="MissingClass" />
-
-
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="gfDE2a7MKjA"
-        tools:ignore="MissingClass" />
-
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="WZHx1h6f2W0"
-        tools:ignore="MissingClass" />
 
 
 </LinearLayout>
