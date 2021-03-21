@@ -1,9 +1,159 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_marginTop="20dp"
 
-     </LinearLayout>
+    android:layout_marginBottom="20dp">
+
+
+     <ScrollView
+         android:id="@+id/scrollView"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+
+
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+               <Button
+                   android:id="@+id/roadmap_btn"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:onClick="Roadmap1"
+                   android:text="Road Map 1" />
+
+               <Button
+
+                   android:id="@+id/roadmap_btn2"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:onClick="Roadmap2"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Road Map 2" />
+
+               <Button
+                   android:id="@+id/yt_playlist1"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:onClick="YtPlayList1"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Youtube Recommended Course 1" />
+
+               <Button
+                   android:id="@+id/yt_playlist2"
+
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:onClick="YtPlaylist2"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Youtube Recommended Course 2" />
+               <Button
+                   android:id="@+id/free_course"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:onClick="FreeCourse"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Java Free Course(udemy)" />
+
+               <Button
+                   android:id="@+id/free_course1"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:onClick="FreeCourse"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Java Free Course(Edx)" />
+
+               <Button
+                   android:id="@+id/paid_course1"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:onClick="FreeCourse"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Java Paid Course(Udemy)" />
+               <Button
+                   android:id="@+id/paid_course"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:layout_marginTop="20dp"
+                   android:onClick="PaidCourse"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Java Paid Course(Edx)" />
+
+               <Button
+                   android:id="@+id/java"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:onClick="Java"
+                   android:background="#FFA500"
+                   android:text="Java Interview Questions" />
+
+               <Button
+                   android:id="@+id/project_ideas"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:onClick="ProjectIdeas"
+                   android:background="#FFA500"
+                   android:text="Project Ideas" />
+               <Button
+                   android:id="@+id/Notes"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:onClick="notes"
+                   android:text="Java Notes" />
+
+               <Button
+                   android:id="@+id/JavaBook"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:onClick="javaBook"
+                   android:text="Java Book Pdf" />
+
+
+          </LinearLayout>
+
+     </ScrollView>
+
+</RelativeLayout>
