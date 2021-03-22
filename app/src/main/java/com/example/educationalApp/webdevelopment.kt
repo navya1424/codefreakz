@@ -21,8 +21,8 @@ class webdevelopment : AppCompatActivity() {
         startActivity(browserIntent)
     }
 
-    fun NodeJs(view: View) {
-        val btn =findViewById<Button>(R.id.roadmap_btn2)
+    fun nodejs(view: View) {
+        val btn =findViewById<Button>(R.id.nodejs)
         val videoId = "umzJU6OzjNI"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
@@ -30,7 +30,7 @@ class webdevelopment : AppCompatActivity() {
     }
 
     fun ProjectIdeas(view: View) {
-        val btn =findViewById<Button>(R.id.roadmap_btn2)
+        val btn =findViewById<Button>(R.id.project_ideas)
         val videoId = "SI5ISZa0IL0"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)

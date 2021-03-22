@@ -3,15 +3,11 @@ package com.example.elearningapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.educationalApp.CProgramming
-import com.example.educationalApp.Dsa
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.educationalApp.*
 
 class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,11 +21,6 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
 
         item.add(CustomClass("C",R.drawable.clogo))
         item.add(CustomClass("C++",R.drawable.cpplogo))
-
-
-
-
-
         item.add(CustomClass("Java",R.drawable.javalogo))
         item.add(CustomClass("Python",R.drawable.pylogo))
         item.add(CustomClass("DataStructure Algorithm",R.drawable.dsa))
@@ -38,15 +29,12 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
         item.add(CustomClass("Web Development",R.drawable.weblogo))
         item.add(CustomClass("Machine Learning",R.drawable.mllogo))
         item.add(CustomClass("Competitive Programming",R.drawable.cplogo))
-
         item.add(CustomClass("Git/Github",R.drawable.git))
-
-
-
         item.add(CustomClass("Kotlin",R.drawable.kotlinlogo))
         item.add(CustomClass("Java Script",R.drawable.jslogo))
-
-        item.add(CustomClass("Free Cources",R.drawable.cource))
+        item.add(CustomClass("Free Courses",R.drawable.cource))
+        item.add(CustomClass("Data Science",R.drawable.ds))
+        item.add(CustomClass("College Roadmap",R.drawable.college))
 
 
 
@@ -98,11 +86,11 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
             startActivity(intent)
         }
      else   if (position==2){
-         val intent = Intent(this,java::class.java)
+         val intent = Intent(this, java::class.java)
          startActivity(intent)
      }
      else   if (position==3){
-         val intent = Intent(this,python::class.java)
+         val intent = Intent(this, python::class.java)
          startActivity(intent)
      }
      else   if (position==4){
@@ -121,8 +109,39 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          val intent = Intent(this, webdevelopment::class.java)
          startActivity(intent)
      }
+     else if (position==8) {
+         val intent = Intent(this, MachineLearning::class.java)
+         startActivity(intent)
+     }
+     else if (position==9) {
+         val intent = Intent(this, CP::class.java)
+         startActivity(intent)
+     }
 
-
+     else if (position==10) {
+         val intent = Intent(this, GitGitHub::class.java)
+         startActivity(intent)
+     }
+     else if (position==11) {
+         val intent = Intent(this, Kotlin::class.java)
+         startActivity(intent)
+     }
+     else if (position==12) {
+         val intent = Intent(this, JavaScript::class.java)
+         startActivity(intent)
+     }
+     else if (position==13) {
+         val intent = Intent(this, FreeCourses::class.java)
+         startActivity(intent)
+     }
+     else if (position==14) {
+         val intent = Intent(this, DataScience::class.java)
+         startActivity(intent)
+     }
+     else if (position==15) {
+         val intent = Intent(this, CollegeRoadmap::class.java)
+         startActivity(intent)
+     }
      }
     }
 

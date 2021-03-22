@@ -54,7 +54,7 @@ class RegisterActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please enter a valid phone number.", Toast.LENGTH_SHORT).show()
             } else {
 
-                val phone = "+91" + findViewById<EditText>(R.id.idEdtPhoneNumber).text.toString()
+                val phone =  findViewById<EditText>(R.id.idEdtPhoneNumber).text.toString()
                 sendVerificationCode(phone)
             }
         }
@@ -172,24 +172,25 @@ class RegisterActivity : AppCompatActivity() {
             .build()
         PhoneAuthProvider.verifyPhoneNumber(options)
 
+
+
 //        )
     }
 
 
-    private val
-
-            mCallBack: PhoneAuthProvider.OnVerificationStateChangedCallbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+    private val mCallBack: PhoneAuthProvider.OnVerificationStateChangedCallbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
         override fun onCodeSent(s: String, forceResendingToken: PhoneAuthProvider.ForceResendingToken) {
             super.onCodeSent(s, forceResendingToken)
-
             verificationId = s
+            findViewById<LinearLayout>(R.id.PhoneLayout).visibility = View.GONE
+            findViewById<LinearLayout>(R.id.OTPLayout).visibility = View.VISIBLE
+
         }
 
         override fun onVerificationCompleted(phoneAuthCredential: PhoneAuthCredential) {
 
+
             val code = phoneAuthCredential.smsCode
-
-
             if (code != null) {
                 edtOTP!!.setText(code)
 
@@ -206,7 +207,7 @@ class RegisterActivity : AppCompatActivity() {
 
 
     private fun verifyCode(code: String) {
-
+        findViewById<ProgressBar>(R.id.ProgressBar).visibility = View.VISIBLE
         val credential = PhoneAuthProvider.getCredential(verificationId, code)
 
 

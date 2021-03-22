@@ -28,7 +28,7 @@
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
-                   android:onClick="Roadmap1"
+                   android:onClick="javaRoadmap1"
                    android:text="Road Map 1" />
 
                <Button
@@ -37,7 +37,7 @@
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="Roadmap2"
+                   android:onClick="javaRoadmap2"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
@@ -48,7 +48,7 @@
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="YtPlayList1"
+                   android:onClick="javaYtPlayList1"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
@@ -56,21 +56,31 @@
 
                <Button
                    android:id="@+id/yt_playlist2"
-
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="YtPlaylist2"
+                   android:onClick="javaYtPlaylist2"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
                    android:text="Youtube Recommended Course 2" />
+
+               <Button
+                   android:id="@+id/javaOneVideo"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:onClick="javaOneVideo"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="#FFA500"
+                   android:text="Java In One Video" />
                <Button
                    android:id="@+id/free_course"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="FreeCourse"
+                   android:onClick="javaFreeCourse"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
@@ -81,32 +91,32 @@
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="FreeCourse"
+                   android:onClick="javaFreeCourse1"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
-                   android:text="Java Free Course(Edx)" />
+                   android:text="Java Free Course(Udacity)" />
 
                <Button
                    android:id="@+id/paid_course1"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="FreeCourse"
+                   android:onClick="javaPaidCourse2"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
-                   android:text="Java Paid Course(Udemy)" />
+                   android:text="Java Paid Course(Coursera)" />
                <Button
                    android:id="@+id/paid_course"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
-                   android:onClick="PaidCourse"
+                   android:onClick="javaPaidCourse1"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
-                   android:text="Java Paid Course(Edx)" />
+                   android:text="Java Paid Course(Udemy)" />
 
                <Button
                    android:id="@+id/java"
@@ -115,7 +125,7 @@
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:onClick="Java"
+                   android:onClick="javaInterviewQuestions"
                    android:background="#FFA500"
                    android:text="Java Interview Questions" />
 
@@ -126,18 +136,18 @@
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:onClick="ProjectIdeas"
+                   android:onClick="javaProjectIdeas"
                    android:background="#FFA500"
                    android:text="Project Ideas" />
                <Button
-                   android:id="@+id/Notes"
+                   android:id="@+id/JavaNotes"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
-                   android:onClick="notes"
+                   android:onClick="javanotes"
                    android:text="Java Notes" />
 
                <Button
@@ -148,7 +158,7 @@
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
                    android:background="#FFA500"
-                   android:onClick="javaBook"
+                   android:onClick="Javabook"
                    android:text="Java Book Pdf" />
 
 

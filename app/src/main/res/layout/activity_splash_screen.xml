@@ -7,7 +7,7 @@
 <!--    tools:context=".splashScreen">-->
 
     <ImageView
-        android:id="@+id/baground"
+        android:id="@+id/matrix"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
@@ -17,17 +17,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/bb" />
+        app:srcCompat="@drawable/matrix" />
 
     <ImageView
         android:id="@+id/robo2"
         android:layout_width="202dp"
         android:layout_height="293dp"
-        app:layout_constraintBottom_toBottomOf="@+id/baground"
+        app:layout_constraintBottom_toBottomOf="@+id/matrix"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.751"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/baground"
+        app:layout_constraintTop_toTopOf="@+id/matrix"
         app:layout_constraintVertical_bias="0.641"
         app:srcCompat="@drawable/robo2" />
 
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/baground"
+        app:layout_constraintTop_toTopOf="@+id/matrix"
         app:layout_constraintVertical_bias="0.166"
         app:srcCompat="@drawable/cloud2" />
 

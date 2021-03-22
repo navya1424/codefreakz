@@ -12,11 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.educationalApp.CProgramming"></activity>
+        <activity android:name="com.example.educationalApp.FreeCourses"></activity>
+        <activity android:name="com.example.educationalApp.JavaScript" />
+        <activity android:name="com.example.educationalApp.Kotlin" />
+        <activity android:name="com.example.educationalApp.GitGitHub" />
+        <activity android:name="com.example.educationalApp.MachineLearning" />
+        <activity android:name="com.example.educationalApp.CollegeRoadmap" />
+        <activity android:name="com.example.educationalApp.DataScience" />
+        <activity android:name="com.example.educationalApp.CProgramming" />
         <activity android:name="com.example.educationalApp.CP" />
         <activity android:name="com.example.educationalApp.Dsa" />
         <activity android:name="com.example.educationalApp.Login" />
-        <activity android:name=".FreeCources" />
+        <activity android:name=".FreeCourses" />
         <activity android:name=".EngSubs" />
         <activity android:name=".SplashScreen">
             <intent-filter>
@@ -27,8 +34,8 @@
         </activity>
         <activity android:name=".webdevelopment" />
         <activity android:name=".androiddevelopment" />
-        <activity android:name=".python" />
-        <activity android:name=".java" />
+        <activity android:name="com.example.educationalApp.python" />
+        <activity android:name="com.example.educationalApp.java" />
         <activity android:name=".ccpppage" />
         <activity android:name=".MainActivity" />
         <activity android:name=".RegisterActivity" />

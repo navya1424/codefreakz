@@ -1,43 +1,170 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="20dp"
+
+android:layout_marginBottom="20dp">
 
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:id="@+id/youtube_player_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="divcpsS3Blo"
-        tools:ignore="MissingClass" />
+<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
 
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="Umm1ZQ5ltZw"
-        tools:ignore="MissingClass" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="x3XQS3unskM"
-        tools:ignore="MissingClass" />
+        <Button
+            android:id="@+id/roadmap_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:onClick="cppRoadmap1"
+            android:text="Road Map 1" />
+
+        <Button
+
+            android:id="@+id/roadmap_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="cppRoadmap2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="Road Map 2" />
+
+        <Button
+            android:id="@+id/yt_playlist1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="cppYtPlayList1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="Youtube Recommended Course 1" />
+
+        <Button
+            android:id="@+id/yt_playlist2"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="cppYtPlaylist2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="Youtube Recommended Course 2" />
+
+        <Button
+            android:id="@+id/CPPinonevideo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="cppinonevideo"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="CPP In One Video" />
+        <Button
+            android:id="@+id/free_course"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="cppFreeCourse1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="CPP Free Course(udemy)" />
+
+        <Button
+            android:id="@+id/free_course1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="cppFreeCourse2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="CPP Free Course(Edx)" />
+
+        <Button
+            android:id="@+id/paid_course1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="cppPaidCourse1"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="CPP Paid Course(Udemy)" />
+        <Button
+            android:id="@+id/paid_course"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="cppPaidCourse2"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:text="CPP Paid Course(Coursera)" />
+
+        <Button
+            android:id="@+id/CPP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="cppInterviewQuestions"
+            android:background="#FFA500"
+            android:text="CPP Interview Questions" />
+
+        <Button
+            android:id="@+id/project_ideas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="cppProjectIdeas"
+            android:background="#FFA500"
+            android:text="Project Ideas" />
+        <Button
+            android:id="@+id/CPPNotes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:onClick="cppnotes"
+            android:text="CPP Notes" />
+
+        <Button
+            android:id="@+id/CPPBook"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:onClick="cppBook"
+            android:text="CPP Book Pdf" />
 
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>
