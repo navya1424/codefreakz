@@ -14,7 +14,7 @@ class FreeCourses : AppCompatActivity() {
         setContentView(R.layout.activity_free_courses)
     }
     fun channelone(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/dsa_one"))
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/deadprogrammer"))
         startActivity(browserIntent)
     }
     fun channeltwo(view: View) {
@@ -30,25 +30,14 @@ class FreeCourses : AppCompatActivity() {
 
     }
 
-    fun channelfour(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/coding_enthusiasts"))
-        startActivity(browserIntent)
 
-    }
-    fun channelfive(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/aman_dhattarwal"))
-        startActivity(browserIntent)
-    }
-    fun Instaone(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/programmer.me/?hl=en"))
-        startActivity(browserIntent)
-    }
+
     fun Instatwo(view: View) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/java.world/?hl=en"))
         startActivity(browserIntent)
     }
     fun Instathree(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/python.learning/?hl=en"))
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/python.hub/"))
         startActivity(browserIntent)
 
     }
@@ -57,20 +46,53 @@ class FreeCourses : AppCompatActivity() {
         startActivity(browserIntent)
 
     }
-    fun ytone(view: View) {
-        val btn =findViewById<Button>(R.id.java)
-        val videoId = "174p2BjUw0M"
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
-        intent.putExtra("VIDEO_ID", videoId)
-        startActivity(intent)
 
+    fun OFFCAMPUS(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/joinchat/Ihu1hhB_c5K_z7KzyrTIxQ"))
+        startActivity(browserIntent)
     }
-    fun yttwo(view: View) {
-        val btn =findViewById<Button>(R.id.java)
-        val videoId = "nn9fF2wz3h4"
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
-        intent.putExtra("VIDEO_ID", videoId)
-        startActivity(intent)
+    fun CodingQuestion(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/itchallenges/"))
+        startActivity(browserIntent)
+    }
+    fun AWSDisCord(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://discord.gg/56VBMJvm"))
+        startActivity(browserIntent)
+    }
+    fun RedditJava(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/java"))
+        startActivity(browserIntent)
+    }
+    fun RedditJs(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/javascript/"))
+        startActivity(browserIntent)
+    }
+    fun CyberSecurity(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/cyberhawksecurity/"))
+        startActivity(browserIntent)
+    }
+    fun AppDevlopement(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/android_dev_tips/"))
+        startActivity(browserIntent)
+    }
+    fun PythonDiscord(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://discord.gg/python"))
+        startActivity(browserIntent)
+    }
 
+    fun RedditAndroid(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/androiddev/"))
+        startActivity(browserIntent)
     }
+
+    fun RedditKotlin(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/Kotlin/"))
+        startActivity(browserIntent)
+    }
+
+    fun ProgrammingNews(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/r/programming/"))
+        startActivity(browserIntent)
+    }
+
 }

@@ -19,17 +19,18 @@
             android:layout_height="fill_parent"
             android:orientation="vertical">
 
+
             <Button
+
                 android:id="@+id/channelone"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:onClick="channelone"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:onClick="channelone"
-                android:text="DSA-One (Anuj Bhaiya) - Telegram Channel Link" />
-
+                android:text="Free  Courses - Telegram Channel Link-1" />
             <Button
 
                 android:id="@+id/channeltwo"
@@ -40,7 +41,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Free Udemy Courses - Telegram Channel Link" />
+                android:text="Free  Courses - Telegram Channel Link-2" />
 
             <Button
                 android:id="@+id/channelthree"
@@ -54,37 +55,8 @@
                 android:text="Coding Guy - Telegram Channel Link" />
 
 
-            <Button
-                android:id="@+id/channelfour"
 
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="channelfour"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Coding Enthusiasts(Anuj Bhaiya) - Telegram Channel Link" />
-            <Button
-                android:id="@+id/channelfive"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="channelfive"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Apna College(Aman Dhattarwal) - Telegram Channel Link" />
-            <Button
-                android:id="@+id/Instaone"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="Instaone"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Programming Instagram Channel" />
+
 
             <Button
                 android:id="@+id/Instatwo"
@@ -95,10 +67,10 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Java Instagram Channel" />
+                android:text="Instagram Page to learn Java" />
 
             <Button
-                android:id="@+id/Instathree"
+                android:id="@+id/Pythonpage"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -106,41 +78,135 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Python Instagram Channel-1" />
+                android:text="Instagram Page to learn Python-1" />
             <Button
                 android:id="@+id/Instafour"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
                 android:onClick="Instafour"
+                android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Python Instagram Channel-2" />
-
-
+                android:text="Instagram Page to learn Python-2" />
             <Button
-                android:id="@+id/ytone"
+                android:id="@+id/telegramoffcampus"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:onClick="OFFCAMPUS"
                 android:layout_marginTop="20dp"
-                android:onClick="ytone"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="GSOC-1(Love Babbar)" />
-
-
+                android:text="Telegram Channel for Offcampus jobs" />
             <Button
-                android:id="@+id/yttwo"
+                android:id="@+id/codingquestion"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:onClick="CodingQuestion"
                 android:layout_marginTop="20dp"
-                android:onClick="yttwo"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="GSOC-2(Aman Dhattarwal)" />
+                android:text="Instagram Page For Coding Questions" />
+            <Button
+                android:id="@+id/appdevelopment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="AppDevlopement"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Instagram Page to learn app development" />
+            <Button
+                android:id="@+id/cybersecurity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="CyberSecurity"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Instagram Page to learn Cyber Security" />
+            <Button
+                android:id="@+id/js"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="RedditJs"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Reddit Java Script Community" />
+            <Button
+                android:id="@+id/javacommunity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="RedditJava"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Reddit Java Community" />
+            <Button
+                android:id="@+id/kotlincommunity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="RedditKotlin"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Reddit Kotlin Community" />
+            <Button
+                android:id="@+id/awsdiscord"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="AWSDisCord"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="AWS Discord Server" />
+            <Button
+                android:id="@+id/pythondiscord"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="PythonDiscord"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Python Discord Server" />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="RedditAndroid"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Reddit Android Community" />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="ProgrammingNews"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Programming News" />
+
+
+
+
+
+
+
+
 
 
         </LinearLayout>

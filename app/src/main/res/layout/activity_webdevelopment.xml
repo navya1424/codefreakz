@@ -120,14 +120,37 @@
                 android:background="#FFA500"
                 android:text="Project Ideas" />
             <Button
-
+                android:id="@+id/react"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:onClick="ReactNotes"
                 android:background="#FFA500"
-                android:text="Html CSS Code Editor" />
+                android:text="React Notes" />
+            <Button
+                android:id="@+id/mongodb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="MongoDB"
+                android:background="#FFA500"
+                android:text="Mongo DB Notes" />
+            <Button
+                android:id="@+id/jquery"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="MongoDB"
+                android:background="#FFA500"
+                android:text="JQuery Notes" />
+
+
 
 
         </LinearLayout>

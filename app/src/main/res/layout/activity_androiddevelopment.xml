@@ -98,7 +98,6 @@
                 android:onClick="Android"
                 android:background="#FFA500"
                 android:text="Android Interview Questions" />
-
             <Button
                 android:id="@+id/project_ideas"
                 android:layout_width="fill_parent"
@@ -109,6 +108,27 @@
                 android:onClick="ProjectIdeas"
                 android:background="#FFA500"
                 android:text="Project Ideas" />
+            <Button
+                android:id="@+id/androidwebsite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="AndroidWebsite"
+                android:background="#FFA500"
+                android:text="Android Official Website" />
+            <Button
+                android:id="@+id/androidnotes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="AndroidNotes"
+                android:background="#FFA500"
+                android:text="Android Notes" />
+
 
         </LinearLayout>
 

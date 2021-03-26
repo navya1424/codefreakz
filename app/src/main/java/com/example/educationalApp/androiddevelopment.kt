@@ -14,21 +14,21 @@ class androiddevelopment : AppCompatActivity() {
         setContentView(R.layout.activity_androiddevelopment)
     }
     fun PaidCourse(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/the-complete-web-development-bootcamp"))
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/android-oreo-kotlin-app-masterclass/"))
         startActivity(browserIntent)
     }
 
     fun Android(view: View) {
         val btn =findViewById<Button>(R.id.android)
-        val videoId = "umzJU6OzjNI"
+        val videoId = "uXYqLh7nikw"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
     }
 
     fun ProjectIdeas(view: View) {
-        val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "uXYqLh7nikw"
+        val btn =findViewById<Button>(R.id.project_ideas)
+        val videoId = "mndwTFO9glI"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
@@ -72,4 +72,12 @@ class androiddevelopment : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun AndroidNotes(view: View) {
+
+    }
+
+    fun AndroidWebsite(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://developer.android.com/"))
+        startActivity(browserIntent)
+    }
 }
