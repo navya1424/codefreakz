@@ -96,7 +96,18 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Javascript Free Course2(Udemy)" />
+                android:text="Javascript Free Course2(Codecademy)" />
+
+            <Button
+                android:id="@+id/paid_course2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="javascriptPaidCourse2"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Javascript free Course(Edx)" />
 
             <Button
                 android:id="@+id/paid_course1"
@@ -107,17 +118,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Javascript Paid Course(Udemy)" />
-            <Button
-                android:id="@+id/paid_course"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:onClick="javascriptPaidCourse2"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Javascript Paid Course(Coursera)" />
+                android:text="Javascript paid Course(Udemy)" />
+
 
             <Button
                 android:id="@+id/javascript"

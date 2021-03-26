@@ -96,7 +96,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Roadmap to off Campus" />
+                android:text="Roadmap to off Campus By Anuj Bhaiya" />
 
 
             <Button
@@ -118,17 +118,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Hoe to be a 5 star coder?" />
-            <Button
-                android:id="@+id/CodeChef"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="CodeChef"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="CodeChef" />
+                android:text="How to be a 5 star coder?" />
 
             <Button
                 android:id="@+id/college"

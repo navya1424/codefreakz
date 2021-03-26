@@ -20,146 +20,145 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/roadmap_btn"
+                android:id="@+id/SE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:onClick="KotlinRoadmap1"
-                android:text="Road Map 1" />
+                android:onClick="SE"
+                android:text="Software Engineering" />
 
             <Button
 
-                android:id="@+id/roadmap_btn2"
+                android:id="@+id/WE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinRoadmap2"
+                android:onClick="WE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Road Map 2" />
+                android:text="Wireless Engineer" />
 
             <Button
-                android:id="@+id/yt_playlist1"
+                android:id="@+id/NA"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinYtPlayList1"
+                android:onClick="NA"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Youtube Recommended Course 1" />
+                android:text="Network Administrator" />
 
 
             <Button
-                android:id="@+id/yt_playlist2"
-
+                android:id="@+id/MLE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinYtPlaylist2"
+                android:onClick="MLE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Youtube Recommended Course 2" />
+                android:text="Machine Learning Engineer" />
             <Button
-                android:id="@+id/Kotlininonevideo"
+                android:id="@+id/DSE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Kotlininonevideo"
+                android:onClick="DSE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Kotlin In One Video" />
+                android:text="Data Scientist" />
             <Button
-                android:id="@+id/free_course"
+                android:id="@+id/CGD"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinFreeCourse1"
+                android:onClick="CGD"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Kotlin Free Course1(udemy)" />
-
-            <Button
-                android:id="@+id/free_course1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="KotlinFreeCourse2"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Kotlin Free Course2(Udemy)" />
+                android:text="Computer Graphic Designer" />
 
             <Button
-                android:id="@+id/paid_course1"
+                android:id="@+id/CHE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinPaidCourse1"
+                android:onClick="CHE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Kotlin Paid Course(Udemy)" />
-            <Button
-                android:id="@+id/paid_course"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:onClick="KotlinPaidCourse2"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Kotlin Paid Course(Coursera)" />
+                android:text="Computer Hardware Engineer" />
 
             <Button
-                android:id="@+id/Kotlin"
+                android:id="@+id/Database"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="Database"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Database Administrator" />
+            <Button
+                android:id="@+id/EH"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
+                android:onClick="EH"
                 android:layout_marginBottom="30dp"
-                android:onClick="KotlinInterviewQuestions"
                 android:background="#FFA500"
-                android:text="Kotlin Interview Questions" />
+                android:text="Ethical Hacking" />
 
             <Button
-                android:id="@+id/project_ideas"
+                android:id="@+id/DataAnalyst"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:onClick="KotlinProjectIdeas"
+                android:onClick="DataAnalyst"
                 android:background="#FFA500"
-                android:text="Project Ideas" />
-            <Button
-                android:id="@+id/KotlinNotes"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:onClick="Kotlinnotes"
-                android:text="Kotlin Notes" />
+                android:text="Data Analyst" />
 
             <Button
-                android:id="@+id/KotlinBook"
+                android:id="@+id/AD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="AD"
+                android:background="#FFA500"
+                android:text="Android Developer" />
+            <Button
+                android:id="@+id/WEB"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:onClick="KotlinBook"
-                android:text="Kotlin Book Pdf" />
+                android:onClick="WEB"
+                android:text="Web Developer" />
+
+            <Button
+                android:id="@+id/SystemDesigner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="SystemDesigner"
+                android:text="System Designer" />
 
 
         </LinearLayout>

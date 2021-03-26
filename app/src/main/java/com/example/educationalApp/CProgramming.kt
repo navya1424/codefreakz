@@ -15,7 +15,7 @@ class CProgramming : AppCompatActivity() {
     }
     fun cRoadmap1(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "ZWI-jrnbMhA"
+        val videoId = "4KyDvu9ue8o"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
@@ -23,7 +23,7 @@ class CProgramming : AppCompatActivity() {
 
     fun cRoadmap2(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "ZWI-jrnbMhA"
+        val videoId = "PrQuYjTfqhQ"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)

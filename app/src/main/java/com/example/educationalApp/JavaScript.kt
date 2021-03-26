@@ -13,9 +13,9 @@ class JavaScript : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_java_script)
     }
-    fun DSRoadmap1(view: View) {
+    fun javascriptRoadmap1(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "XnNzck5-HdQ"
+        val videoId = "gSnbnYffz7k"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
@@ -23,67 +23,69 @@ class JavaScript : AppCompatActivity() {
 
     }
 
-    fun DSRoadmap2(view: View) {
+    fun javascriptRoadmap2(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "GJaYfNiY4to"
+        val videoId = "ag0-D-srh9E"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
 
 
     }
-    fun DSYtPlayList1(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLu0W_9lII9agK8pojo23OHiNz3Jm6VQCH"))
+    fun javascriptYtPlayList1(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV"))
         startActivity(browserIntent)
     }
-    fun DSYtPlaylist2(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1"))
+    fun javascriptYtPlaylist2(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL"))
         startActivity(browserIntent)
     }
-    fun DSinonevideo(view: View) {
+    fun javascriptinonevideo(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "ETQ97mXXF0"
+        val videoId = "onbBV0uFVpo"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
     }
-    fun DSFreeCourse1(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/data-science-machine-learning-data-analysis-python-r/"))
+    fun javascriptFreeCourse1(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/javascript-essentials/"))
         startActivity(browserIntent)
 
     }
-    fun DSFreeCourse2(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.coursera.org/learn/datasciencemathskills"))
+    fun javascriptFreeCourse2(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.codecademy.com/learn/introduction-to-javascript"))
         startActivity(browserIntent)
 
     }
-    fun DSPaidCourse1(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/machinelearning/"))
+    fun javascriptPaidCourse1(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/the-complete-javascript-course/"))
+        startActivity(browserIntent)
+    }
+    fun javascriptPaidCourse2(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.edx.org/course/javascript-introduction"))
         startActivity(browserIntent)
 
     }
-    fun DSPaidCourse2(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.coursera.org/professional-certificates/ibm-data-science?action=enroll"))
-        startActivity(browserIntent)
-
-    }
-    fun DSInterviewQuestions(view: View) {
+    fun javascriptInterviewQuestions(view: View) {
         val btn =findViewById<Button>(R.id.java)
-        val videoId = "k6QWYwOvJs0"
+        val videoId = "0XZUdS2YTdw"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
     }
-    fun DSProjectIdeas(view: View) {
+    fun javascriptProjectIdeas(view: View) {
 
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=h1r9NnQDJfo"))
-        startActivity(browserIntent)
+        val btn =findViewById<Button>(R.id.java)
+        val videoId = "YK4sH0g_gAA"
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
+        intent.putExtra("VIDEO_ID", videoId)
+        startActivity(intent)
 
     }
-    fun DSnotes(view: View) {
+    fun javascriptnotes(view: View) {
         val btn =findViewById<Button>(R.id.DSNotes)
     }
-    fun DSBook(view: View) {
+    fun javascriptBook(view: View) {
         val btn =findViewById<Button>(R.id.DSBook)
     }
 
