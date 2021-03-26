@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EngSubs">
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Your Year"
+                android:textStyle="bold|italic"
+                android:textSize="35sp"
+                android:paddingLeft="60dp"
+                android:paddingBottom="40dp"
+                android:textColor="@color/colorRed"/>
+
+            <Button
+                android:id="@+id/firstYear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#FFA500"
+                android:onClick="FirstYear"
+                android:text="FIRST YEAR" />
+
+            <Button
+
+                android:id="@+id/SecondYear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="SecondYear"
+                android:text="SECOND YEAR" />
+
+            <Button
+                android:id="@+id/ThirdYear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="ThirdYear"
+                android:text="THIRD YEAR" />
+
+            <Button
+                android:id="@+id/FourthYear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="FourthYear"
+                android:text="FOURTH YEAR" />
+
+
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -12,7 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.educationalApp.FreeCourses"></activity>
+        <activity android:name="com.example.educationalApp.Coding_practice_websites"></activity>
+        <activity android:name="com.example.educationalApp.Job_Opportunities" />
+        <activity android:name="com.example.educationalApp.Some_Cool_Stuffs" />
+        <activity android:name="com.example.educationalApp.Fourth_Year" />
+        <activity android:name="com.example.educationalApp.Third_Year" />
+        <activity android:name="com.example.educationalApp.Second_Year" />
+        <activity android:name="com.example.educationalApp.First_Year" />
+        <activity android:name="com.example.educationalApp.FreeCourses" />
         <activity android:name="com.example.educationalApp.JavaScript" />
         <activity android:name="com.example.educationalApp.Kotlin" />
         <activity android:name="com.example.educationalApp.GitGitHub" />

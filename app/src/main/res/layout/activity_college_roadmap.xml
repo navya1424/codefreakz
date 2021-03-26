@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+
+    android:layout_marginBottom="20dp">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lovebabbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="lovebabbar"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Complete Roadmap For College Student(part1)" />
+
+            <Button
+                android:id="@+id/parttwo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="parttwo"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Complete Roadmap For College Student(part2)" />
+
+
+            <Button
+                android:id="@+id/second"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="second"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Off Campus Internship In 2nd Year" />
+
+            <Button
+                android:id="@+id/final_year"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="Final_year"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Final Year Placement Roadmap" />
+
+            <Button
+                android:id="@+id/first"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="first"
+                android:text="Are you a fresher?? Click Here!!" />
+
+            <Button
+
+                android:id="@+id/off_campus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="off_campus"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Off Campus Placement by Aman Dhattarwal" />
+
+            <Button
+                android:id="@+id/off_campus_two"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="off_campus_two"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Roadmap to off Campus" />
+
+
+            <Button
+                android:id="@+id/MBA"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="MBA"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="5 reasons to do MBA" />
+            <Button
+                android:id="@+id/coder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="coder"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Hoe to be a 5 star coder?" />
+            <Button
+                android:id="@+id/CodeChef"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="CodeChef"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="CodeChef" />
+
+            <Button
+                android:id="@+id/college"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="college"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="How to study for college placement" />
+
+            <Button
+                android:id="@+id/internship"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="internship"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="All About Internships" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

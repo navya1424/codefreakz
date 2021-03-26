@@ -32,9 +32,12 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
         item.add(CustomClass("Git/Github",R.drawable.git))
         item.add(CustomClass("Kotlin",R.drawable.kotlinlogo))
         item.add(CustomClass("Java Script",R.drawable.jslogo))
-        item.add(CustomClass("Free Courses",R.drawable.cource))
+        item.add(CustomClass("Resources",R.drawable.cource))
         item.add(CustomClass("Data Science",R.drawable.ds))
         item.add(CustomClass("College Roadmap",R.drawable.college))
+        item.add(CustomClass("Some Cool Stuffs",R.drawable.cool))
+        item.add(CustomClass("Job Opportunities",R.drawable.job))
+
 
 
 

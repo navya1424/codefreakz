@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+
+    android:layout_marginBottom="20dp">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/channelone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="channelone"
+                android:text="DSA-One (Anuj Bhaiya) - Telegram Channel Link" />
+
+            <Button
+
+                android:id="@+id/channeltwo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="channeltwo"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Free Udemy Courses - Telegram Channel Link" />
+
+            <Button
+                android:id="@+id/channelthree"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="channelthree"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Coding Guy - Telegram Channel Link" />
+
+
+            <Button
+                android:id="@+id/channelfour"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="channelfour"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Coding Enthusiasts(Anuj Bhaiya) - Telegram Channel Link" />
+            <Button
+                android:id="@+id/channelfive"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="channelfive"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Apna College(Aman Dhattarwal) - Telegram Channel Link" />
+            <Button
+                android:id="@+id/Instaone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="Instaone"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Programming Instagram Channel" />
+
+            <Button
+                android:id="@+id/Instatwo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="Instatwo"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Java Instagram Channel" />
+
+            <Button
+                android:id="@+id/Instathree"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="Instathree"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Python Instagram Channel-1" />
+            <Button
+                android:id="@+id/Instafour"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="Instafour"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Python Instagram Channel-2" />
+
+
+            <Button
+                android:id="@+id/ytone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="ytone"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="GSOC-1(Love Babbar)" />
+
+
+            <Button
+                android:id="@+id/yttwo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="yttwo"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="GSOC-2(Aman Dhattarwal)" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
