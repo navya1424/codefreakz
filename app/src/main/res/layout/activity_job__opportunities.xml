@@ -159,6 +159,26 @@
                 android:background="#FFA500"
                 android:onClick="SystemDesigner"
                 android:text="System Designer" />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="Devops"
+                android:text="Devops Engineer" />
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="CyberSecurityEngineer"
+                android:text="Cyber Security Engineer" />
 
 
         </LinearLayout>

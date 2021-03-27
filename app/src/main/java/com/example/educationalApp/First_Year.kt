@@ -11,10 +11,7 @@ class First_Year : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first__year)
-        fun Mone(view: View) {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/folderview?id=1JhacJ8X3qmwNqJQKMrrnVVBQ4xyFjFdw"))
-            startActivity(browserIntent)
-        }
+
 
 //        fun BCE(view: View) {
 //            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/folderview?id=1K8CJFJ-B4gLNzQwCwgvxQ17N8be_H7eG"))

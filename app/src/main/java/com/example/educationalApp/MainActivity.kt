@@ -146,6 +146,14 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          val intent = Intent(this, CollegeRoadmap::class.java)
          startActivity(intent)
      }
+     else if (position==16) {
+         val intent = Intent(this, Some_Cool_Stuffs::class.java)
+         startActivity(intent)
+     }
+     else if (position==17) {
+         val intent = Intent(this, Job_Opportunities::class.java)
+         startActivity(intent)
+     }
      }
     }
 

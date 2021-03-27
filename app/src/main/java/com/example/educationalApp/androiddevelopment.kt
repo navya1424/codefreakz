@@ -74,6 +74,8 @@ class androiddevelopment : AppCompatActivity() {
 
     fun AndroidNotes(view: View) {
 
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1u5P7D-dVIvawYS2xOb_DtzYj2H3sBx-f/view?usp=sharing"))
+        startActivity(browserIntent)
     }
 
     fun AndroidWebsite(view: View) {

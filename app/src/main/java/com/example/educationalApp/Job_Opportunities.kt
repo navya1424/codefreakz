@@ -68,4 +68,13 @@ class Job_Opportunities : AppCompatActivity() {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cgspectrum.com/career-pathways/systems-designer"))
         startActivity(browserIntent)
     }
+
+    fun Devops(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.lucidchart.com/blog/devops-engineer-roles-and-responsibilities"))
+        startActivity(browserIntent)
+    }
+    fun CyberSecurityEngineer(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.simplilearn.com/tutorials/cyber-security-tutorial/how-to-become-cyber-security-engineer"))
+        startActivity(browserIntent)
+    }
 }
