@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.educationalApp.Third_Year">
+    android:layout_marginTop="20dp"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_marginBottom="20dp">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Toc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="Toc"
+                android:text="Theory of Computation" />
+
+            <Button
+
+                android:id="@+id/PM"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="PM"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Project management" />
+
+            <Button
+                android:id="@+id/ML"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="ML"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Machine Learning" />
+
+            <Button
+                android:id="@+id/IWT"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="IWT"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="INTERNET AND WEB TECHNOLOGY" />
+
+            <Button
+                android:id="@+id/DBMS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="DBMS"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Database Management System" />
+
+            <Button
+                android:id="@+id/Cybe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="Cybe"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Cyber Security" />
+
+            <Button
+                android:id="@+id/CN"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="CN"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Computer Networks" />
+            <Button
+                android:id="@+id/CD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="CD"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Compiler Design" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

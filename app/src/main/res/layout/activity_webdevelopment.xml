@@ -146,11 +146,40 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:onClick="MongoDB"
+                android:onClick="JQuery"
                 android:background="#FFA500"
                 android:text="JQuery Notes" />
+            <Button
 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="HTML"
+                android:background="#FFA500"
+                android:text="HTML Notes" />
+            <Button
 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="CSS"
+                android:background="#FFA500"
+                android:text="CSS Notes" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:onClick="Angular"
+                android:background="#FFA500"
+                android:text="Angular Notes" />
 
 
         </LinearLayout>

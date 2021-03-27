@@ -61,13 +61,13 @@ class webdevelopment : AppCompatActivity() {
     }
 
     fun YtPlaylist2(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"))
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"))
         startActivity(browserIntent)
 
     }
     fun YtPlayList1(view: View) {
 
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=l1EssrLxt7E&list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"))
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"))
         startActivity(browserIntent)
     }
 
@@ -77,5 +77,31 @@ class webdevelopment : AppCompatActivity() {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
+    }
+
+    fun ReactNotes(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1W2uSlrGvgndSamCpxAQyS7AwNYzL_ZE8/view?usp=sharing"))
+        startActivity(browserIntent)
+    }
+    fun MongoDB(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1A1flQqWMZVfYqhEAwNi0_Nfe889_cSjc/view?usp=sharing"))
+        startActivity(browserIntent)
+    }
+    fun JQuery(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1Ri2wYz8kGDg5JINAMf3tg9AUf5CrQQQc/view?usp=sharing"))
+        startActivity(browserIntent)
+    }
+    fun HTML(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1IPojz6wjgqtf_u6fufctw8A3QLGhM3D5/view?usp=sharing"))
+        startActivity(browserIntent)
+    }
+    fun CSS(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1rr-SrVHsImU7Zvx08cckq7tJnKMtwBc1/view?usp=sharing"))
+        startActivity(browserIntent)
+    }
+
+    fun Angular(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/177iv3Pz5Sz2MgJ6iSyEcnZMMECG6tlX2/view?usp=sharing"))
+        startActivity(browserIntent)
     }
 }

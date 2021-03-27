@@ -1,9 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.educationalApp.Second_Year">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="20dp">
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:onClick="SE"
+                    android:text="Software Engineering" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="OP"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:text="Operating System" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="Oopm"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:text="Object Oriented Programming and Methodology" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="M3"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:text="Mathematics III" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="EEE"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:text="Energy And Environmental Engineering" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="DS"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:text="Discrete Structure" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="Disy"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:text="Digital Systems" />
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="Dastru"
+                    android:layout_marginBottom="30dp"
+                    android:background="#FFA500"
+                    android:text="Data Structure" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:onClick="COA"
+                    android:background="#FFA500"
+                    android:text="Computer Organization and Architecture" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:onClick="ADA"
+                    android:background="#FFA500"
+                    android:text="Analysis and Design of Algorithm" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+

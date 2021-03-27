@@ -129,27 +129,9 @@
                 android:onClick="Mtwo"
                 android:background="#FFA500"
                 android:text="Mathematics-2" />
-            <Button
-                android:id="@+id/Questions"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:onClick="Questions"
-                android:text="Previous Year Question Paper(First Semester)"/>
 
-            <Button
-                android:id="@+id/Questionstwo"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:onClick="Questionstwo"
-                android:text="Previous Year Question Paper(Second Semester)"/>
+
+
 
 
         </LinearLayout>

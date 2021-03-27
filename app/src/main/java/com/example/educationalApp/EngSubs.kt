@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.example.educationalApp.First_Year
+import com.example.educationalApp.Second_Year
+import com.example.educationalApp.Third_Year
 import kotlinx.android.synthetic.main.activity_eng_subs.*
 
 class EngSubs : AppCompatActivity() {
@@ -17,30 +19,19 @@ class EngSubs : AppCompatActivity() {
     }
 
     fun FirstYear(view: View) {
-        val mainActivityIntent = Intent(this, First_Year::class.java)
-        startActivity(mainActivityIntent)
-        finish()
-    }
+        val intent = Intent(this, First_Year::class.java)
+        startActivity(intent)
 
+    }
     fun SecondYear(view: View) {
-        val mainActivityIntent = Intent(this, SecondYear::class.java)
-        startActivity(mainActivityIntent)
-        finish()
+        val intent = Intent(this, Second_Year::class.java)
+        startActivity(intent)
+
     }
-
-
     fun ThirdYear(view: View) {
-        val mainActivityIntent = Intent(this, ThirdYear::class.java)
-        startActivity(mainActivityIntent)
-        finish()
+        val intent = Intent(this, Third_Year::class.java)
+        startActivity(intent)
 
-    }
-
-
-    fun FourthYear(view: View) {
-        val mainActivityIntent = Intent(this, FourthYear::class.java)
-        startActivity(mainActivityIntent)
-        finish()
     }
 
 

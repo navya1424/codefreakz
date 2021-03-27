@@ -140,27 +140,7 @@
                 android:onClick="MLProjectIdeas"
                 android:background="#FFA500"
                 android:text="Project Ideas" />
-            <Button
-                android:id="@+id/MLNotes"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:onClick="MLnotes"
-                android:text="Machine Learning Notes" />
 
-            <Button
-                android:id="@+id/MLBook"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:onClick="MLBook"
-                android:text="Machine Learning Book Pdf" />
 
 
         </LinearLayout>

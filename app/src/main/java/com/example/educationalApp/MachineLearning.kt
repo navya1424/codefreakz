@@ -81,11 +81,6 @@ class MachineLearning : AppCompatActivity() {
         startActivity(browserIntent)
 
     }
-    fun MLnotes(view: View) {
-        val btn =findViewById<Button>(R.id.MLNotes)
-    }
-    fun MLBook(view: View) {
-        val btn =findViewById<Button>(R.id.MLBook)
-    }
+
 
 }
