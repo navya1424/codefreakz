@@ -21,6 +21,8 @@ class CollegeRoadmap : AppCompatActivity() {
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
     }
+
+
     fun parttwo(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
         val videoId = "Z1KfAotr0NQ"
@@ -99,5 +101,10 @@ class CollegeRoadmap : AppCompatActivity() {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
+    }
+
+    fun Interviews(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLqM7alHXFySEZiJMQRlXruUH_1B98B4D5"))
+        startActivity(browserIntent)
     }
 }

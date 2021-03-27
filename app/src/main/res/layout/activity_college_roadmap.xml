@@ -142,6 +142,17 @@
                 android:background="#FFA500"
                 android:text="All About Internships" />
 
+            <Button
+                android:id="@+id/Interviews"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="Interviews"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Interview Experiences" />
+
         </LinearLayout>
 
     </ScrollView>

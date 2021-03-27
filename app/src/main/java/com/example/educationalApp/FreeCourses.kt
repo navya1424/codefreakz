@@ -30,6 +30,12 @@ class FreeCourses : AppCompatActivity() {
 
     }
 
+    fun Website(view: View) {
+        val browserIntent = Intent(this, Coding_practice_websites::class.java)
+        startActivity(browserIntent)
+
+    }
+
 
 
     fun Instatwo(view: View) {
