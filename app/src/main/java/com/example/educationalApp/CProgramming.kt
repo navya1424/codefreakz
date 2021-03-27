@@ -72,8 +72,10 @@ class CProgramming : AppCompatActivity() {
         startActivity(browserIntent)
     }
     fun Cnotes(view: View) {
-
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1IHmben1R_BkJbSKKeKJ3vjeiJJdR0SI3/view?usp=sharing"))
+        startActivity(browserIntent)
     }
+
     fun CBook(view: View) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1-leFQfOT4YU1Y1FZdC_idAEimJf6LfaT/view?usp=sharing"))
         startActivity(browserIntent)
