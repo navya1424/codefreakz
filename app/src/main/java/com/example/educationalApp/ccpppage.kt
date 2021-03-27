@@ -77,10 +77,12 @@ class ccpppage : AppCompatActivity() {
         startActivity(browserIntent)
     }
     fun cppnotes(view: View) {
-        val btn =findViewById<Button>(R.id.CNotes)
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1YnK3D3s1uE4K8KQcSzbDj4J4sMJwBRci/view?usp=sharing"))
+        startActivity(browserIntent)
     }
     fun cppBook(view: View) {
-        val btn =findViewById<Button>(R.id.CPPBook)
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1N14SYUvOORgT3rjGDGAnhqi8XEosGkLx/view?usp=sharing"))
+        startActivity(browserIntent)
     }
 
 }

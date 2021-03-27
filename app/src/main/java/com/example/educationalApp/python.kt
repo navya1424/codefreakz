@@ -82,8 +82,10 @@ class python : AppCompatActivity() {
 
     }
     fun Pythonnotes(view: View) {
-
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1DfJcIC2pe_zhmsV3j1g7zzgJaInFkKuA/view?usp=sharing"))
+        startActivity(browserIntent)
     }
+
 
     fun pythonBook(view: View) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1caFKAIUCbBaTAUhr0g5JxsTacDDPuy-G/view?usp=sharing"))

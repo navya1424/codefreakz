@@ -82,12 +82,13 @@ class Kotlin : AppCompatActivity() {
 
     }
     fun Kotlinnotes(view: View) {
-        val btn =findViewById<Button>(R.id.DSNotes)
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1t-8WcGITBw_O273IRkkaWkfrWcLyfkx-/view?usp=sharing"))
+        startActivity(browserIntent)
     }
     fun KotlinBook(view: View) {
-        val btn =findViewById<Button>(R.id.DSBook)
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1Eae7en3pQADeupoeP5V44Afz6uKR-kcW/view?usp=sharing"))
+        startActivity(browserIntent)
     }
-
 
 
 }
