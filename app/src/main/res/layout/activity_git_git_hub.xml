@@ -29,19 +29,7 @@
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
                 android:onClick="GitGithubRoadmap1"
-                android:text="Road Map 1" />
-
-            <Button
-
-                android:id="@+id/roadmap_btn2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="GitGithubRoadmap2"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Road Map 2" />
+                android:text="Basic Git Commands" />
 
             <Button
                 android:id="@+id/yt_playlist1"
@@ -96,7 +84,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:text="Git-Github Free Course2(Udemy)" />
+                android:text="Git-Github Free Course2(Udacity)" />
 
             <Button
                 android:id="@+id/paid_course1"
@@ -130,16 +118,7 @@
                 android:background="#FFA500"
                 android:text="Git-Github Interview Questions" />
 
-            <Button
-                android:id="@+id/project_ideas"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:onClick="GitProjectIdeas"
-                android:background="#FFA500"
-                android:text="Project Ideas" />
+
             <Button
                 android:id="@+id/GitNotes"
                 android:layout_width="fill_parent"
@@ -148,7 +127,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:background="#FFA500"
-                android:onClick="Gitotes"
+                android:onClick="Gitnotes"
                 android:text="Git-Github Notes" />
 
 

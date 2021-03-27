@@ -200,6 +200,20 @@
                 android:background="#FFA500"
                 android:text="Programming News" />
 
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="Website"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:text="Website To Practice Coding" />
+
+
+
+
 
 
 
