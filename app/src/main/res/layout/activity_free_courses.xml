@@ -29,7 +29,8 @@
                 android:onClick="channelone"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Free  Courses - Telegram Channel Link-1" />
             <Button
 
@@ -40,7 +41,8 @@
                 android:onClick="channeltwo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Free  Courses - Telegram Channel Link-2" />
 
             <Button
@@ -51,7 +53,8 @@
                 android:onClick="channelthree"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Coding Guy - Telegram Channel Link" />
 
 
@@ -66,7 +69,8 @@
                 android:onClick="Instatwo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Instagram Page to learn Java" />
 
             <Button
@@ -77,7 +81,8 @@
                 android:onClick="Instathree"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Instagram Page to learn Python-1" />
             <Button
                 android:id="@+id/Instafour"
@@ -87,7 +92,8 @@
                 android:onClick="Instafour"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Instagram Page to learn Python-2" />
             <Button
                 android:id="@+id/telegramoffcampus"
@@ -97,7 +103,8 @@
                 android:onClick="OFFCAMPUS"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Telegram Channel for Offcampus jobs" />
             <Button
                 android:id="@+id/codingquestion"
@@ -107,7 +114,8 @@
                 android:onClick="CodingQuestion"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Instagram Page For Coding Questions" />
             <Button
                 android:id="@+id/appdevelopment"
@@ -117,7 +125,8 @@
                 android:onClick="AppDevlopement"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Instagram Page to learn app development" />
             <Button
                 android:id="@+id/cybersecurity"
@@ -127,7 +136,8 @@
                 android:onClick="CyberSecurity"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Instagram Page to learn Cyber Security" />
             <Button
                 android:id="@+id/js"
@@ -137,7 +147,8 @@
                 android:onClick="RedditJs"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Reddit Java Script Community" />
             <Button
                 android:id="@+id/javacommunity"
@@ -147,7 +158,8 @@
                 android:onClick="RedditJava"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Reddit Java Community" />
             <Button
                 android:id="@+id/kotlincommunity"
@@ -157,7 +169,8 @@
                 android:onClick="RedditKotlin"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Reddit Kotlin Community" />
             <Button
                 android:id="@+id/awsdiscord"
@@ -167,7 +180,8 @@
                 android:onClick="AWSDisCord"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="AWS Discord Server" />
             <Button
                 android:id="@+id/pythondiscord"
@@ -177,7 +191,8 @@
                 android:onClick="PythonDiscord"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Python Discord Server" />
             <Button
 
@@ -187,7 +202,8 @@
                 android:onClick="RedditAndroid"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Reddit Android Community" />
             <Button
 
@@ -197,7 +213,8 @@
                 android:onClick="ProgrammingNews"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Programming News" />
 
             <Button
@@ -208,7 +225,8 @@
                 android:onClick="Website"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Website To Practice Coding" />
 
 

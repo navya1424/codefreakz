@@ -27,7 +27,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="pythonRoadmap1"
                 android:text="Road Map 1" />
 
@@ -40,7 +41,8 @@
                 android:onClick="pythonRoadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Road Map 2" />
 
             <Button
@@ -51,7 +53,8 @@
                 android:onClick="pythonYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 1" />
 
 
@@ -64,7 +67,8 @@
                 android:onClick="pythonYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 2" />
             <Button
                 android:id="@+id/pytoninonevideo"
@@ -74,7 +78,8 @@
                 android:onClick="pythoninonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Python In One Video" />
             <Button
                 android:id="@+id/free_course"
@@ -84,7 +89,8 @@
                 android:onClick="pythonFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Python Free Course1(udemy)" />
 
             <Button
@@ -95,7 +101,8 @@
                 android:onClick="pythonFreeCourse2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Python Free Course2(Udemy)" />
 
             <Button
@@ -106,7 +113,8 @@
                 android:onClick="pythonPaidCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Python Paid Course(Udemy)" />
             <Button
                 android:id="@+id/paid_course"
@@ -116,7 +124,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="pythonPaidCourse2"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Python Paid Course(Coursera)" />
 
             <Button
@@ -127,7 +136,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="PythonInterviewQuestions"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Python Interview Questions" />
 
             <Button
@@ -138,7 +148,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="PythonProjectIdeas"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Project Ideas" />
             <Button
                 android:id="@+id/PythonNotes"
@@ -147,7 +158,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="Pythonnotes"
                 android:text="Python Notes" />
 
@@ -158,7 +170,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="pythonBook"
                 android:text="Python Book Pdf" />
 

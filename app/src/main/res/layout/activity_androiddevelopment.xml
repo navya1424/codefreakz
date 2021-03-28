@@ -27,7 +27,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="Roadmap"
                 android:text="Road Map 1" />
 
@@ -40,7 +41,8 @@
                 android:onClick="Roadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Road Map 2" />
 
             <Button
@@ -51,7 +53,8 @@
                 android:onClick="YtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course " />
 
             <Button
@@ -63,7 +66,8 @@
                 android:onClick="YtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Android in one video" />
 
             <Button
@@ -74,7 +78,8 @@
                 android:onClick="FreeCourse"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Free Course" />
             <Button
                 android:id="@+id/paid_course"
@@ -85,7 +90,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="PaidCourse"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Paid Course" />
 
             <Button
@@ -96,7 +102,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="Android"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Android Interview Questions" />
             <Button
                 android:id="@+id/project_ideas"
@@ -106,7 +113,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="ProjectIdeas"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Project Ideas" />
             <Button
                 android:id="@+id/androidwebsite"
@@ -116,7 +124,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="AndroidWebsite"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Android Official Website" />
             <Button
                 android:id="@+id/androidnotes"
@@ -126,7 +135,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="AndroidNotes"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Android Notes" />
 
 

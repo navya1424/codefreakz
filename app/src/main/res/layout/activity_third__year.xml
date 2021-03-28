@@ -28,7 +28,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="Toc"
                 android:text="Theory of Computation" />
 
@@ -41,7 +42,8 @@
                 android:onClick="PM"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Project management" />
 
             <Button
@@ -52,7 +54,8 @@
                 android:onClick="ML"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning" />
 
             <Button
@@ -63,7 +66,8 @@
                 android:onClick="IWT"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="INTERNET AND WEB TECHNOLOGY" />
 
             <Button
@@ -74,7 +78,8 @@
                 android:onClick="DBMS"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Database Management System" />
 
             <Button
@@ -85,7 +90,8 @@
                 android:onClick="Cybe"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Cyber Security" />
 
             <Button
@@ -96,7 +102,8 @@
                 android:onClick="CN"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Computer Networks" />
             <Button
                 android:id="@+id/CD"
@@ -106,7 +113,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="CD"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Compiler Design" />
 
         </LinearLayout>

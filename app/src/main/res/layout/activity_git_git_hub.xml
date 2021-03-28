@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="20dp"
-
+    android:background="@drawable/bb2"
     android:layout_marginBottom="20dp">
 
 
@@ -27,7 +27,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="GitGithubRoadmap1"
                 android:text="Basic Git Commands" />
 
@@ -39,7 +40,8 @@
                 android:onClick="GitYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 1" />
 
 
@@ -52,7 +54,8 @@
                 android:onClick="GitYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 2" />
             <Button
                 android:id="@+id/Gitinonevideo"
@@ -62,7 +65,8 @@
                 android:onClick="Gitinonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Git-Github In One Video" />
             <Button
                 android:id="@+id/free_course"
@@ -72,7 +76,8 @@
                 android:onClick="GitFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Git-Github Free Course1(udemy)" />
 
             <Button
@@ -83,7 +88,8 @@
                 android:onClick="GitFreeCourse2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Git-Github Free Course2(Udacity)" />
 
             <Button
@@ -94,8 +100,11 @@
                 android:onClick="GitPaidCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Git-Github Paid Course(Udemy)" />
+
+
             <Button
                 android:id="@+id/paid_course"
                 android:layout_width="fill_parent"
@@ -104,7 +113,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="GitPaidCourse2"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Git-Github Paid Course(Coursera)" />
 
             <Button
@@ -115,7 +125,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="GitInterviewQuestions"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Git-Github Interview Questions" />
 
 
@@ -126,7 +137,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="Gitnotes"
                 android:text="Git-Github Notes" />
 

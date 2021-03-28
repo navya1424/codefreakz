@@ -27,7 +27,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="MLRoadmap1"
                 android:text="Road Map 1" />
 
@@ -40,7 +41,8 @@
                 android:onClick="MLRoadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Road Map 2" />
 
             <Button
@@ -51,7 +53,8 @@
                 android:onClick="MLYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 1" />
 
 
@@ -64,7 +67,8 @@
                 android:onClick="MLYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 2" />
             <Button
                 android:id="@+id/pytoninonevideo"
@@ -74,7 +78,8 @@
                 android:onClick="MLinonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning In One Video" />
             <Button
                 android:id="@+id/free_course"
@@ -84,7 +89,8 @@
                 android:onClick="MLFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning Free Course1(udemy)" />
 
             <Button
@@ -95,7 +101,8 @@
                 android:onClick="MLFreeCourse2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning Free Course2(Coursera)" />
 
             <Button
@@ -106,7 +113,8 @@
                 android:onClick="MLPaidCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning Paid Course(Coursera)" />
             <Button
                 android:id="@+id/paid_course"
@@ -116,7 +124,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="MLPaidCourse2"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning Paid Course(Udemy)" />
 
             <Button
@@ -127,7 +136,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="MLInterviewQuestions"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning Interview Questions" />
 
             <Button
@@ -138,7 +148,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="MLProjectIdeas"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Project Ideas" />
 
 

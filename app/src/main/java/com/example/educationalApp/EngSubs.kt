@@ -33,10 +33,15 @@ class EngSubs : AppCompatActivity() {
 
     }
     fun OSNOTES(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1LirSZgmlXpWX0Q5htx1rvosDQjzq_h0T/view?usp=sharing"))
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/u/1/folders/1gmsDBXCZu_nMRzmG7DZ7o7xdGm6pnK4r"))
         startActivity(browserIntent)
     }
     fun DBMSNOTES(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1Zy3FTBx1Qwgavq_A4zIiEpqljHtka9BG/view?usp=sharing"))
+        startActivity(browserIntent)
+    }
+
+    fun DBMSORACLENOTES(view: View) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1WUUwqDGrt5_gxgCeT_j2WHQz7vg1bQxZ/view?usp=sharing"))
         startActivity(browserIntent)
     }

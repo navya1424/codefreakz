@@ -26,7 +26,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="SE"
                 android:text="Software Engineering" />
 
@@ -39,7 +40,8 @@
                 android:onClick="WE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Wireless Engineer" />
 
             <Button
@@ -50,7 +52,8 @@
                 android:onClick="NA"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Network Administrator" />
 
 
@@ -62,7 +65,8 @@
                 android:onClick="MLE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Machine Learning Engineer" />
             <Button
                 android:id="@+id/DSE"
@@ -72,7 +76,8 @@
                 android:onClick="DSE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Data Scientist" />
             <Button
                 android:id="@+id/CGD"
@@ -82,7 +87,8 @@
                 android:onClick="CGD"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Computer Graphic Designer" />
 
             <Button
@@ -93,7 +99,8 @@
                 android:onClick="CHE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Computer Hardware Engineer" />
 
             <Button
@@ -104,7 +111,8 @@
                 android:onClick="Database"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Database Administrator" />
             <Button
                 android:id="@+id/EH"
@@ -114,7 +122,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="EH"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Ethical Hacking" />
 
             <Button
@@ -125,7 +134,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="DataAnalyst"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Data Analyst" />
 
             <Button
@@ -136,7 +146,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="AD"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Android Developer" />
             <Button
                 android:id="@+id/WEB"
@@ -145,7 +156,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="WEB"
                 android:text="Web Developer" />
 
@@ -156,7 +168,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="SystemDesigner"
                 android:text="System Designer" />
             <Button
@@ -166,7 +179,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="Devops"
                 android:text="Devops Engineer" />
             <Button
@@ -176,7 +190,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="CyberSecurityEngineer"
                 android:text="Cyber Security Engineer" />
 

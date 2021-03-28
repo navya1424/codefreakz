@@ -26,6 +26,11 @@ class Dsa : AppCompatActivity() {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p"))
         startActivity(intent)
     }
+
+    fun DSCPP(view: View) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/data-structures-for-beginners-c-plusplus/"))
+        startActivity(intent)
+    }
     fun PaidCourse(view: View) {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://practice.geeksforgeeks.org/courses/dsa-self-paced"))
         startActivity(intent)

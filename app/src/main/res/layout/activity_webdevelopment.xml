@@ -27,7 +27,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="Roadmap"
                 android:text="Road Map 1" />
 
@@ -40,7 +41,8 @@
                 android:onClick="Roadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Road Map 2" />
 
             <Button
@@ -51,7 +53,8 @@
                 android:onClick="YtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 1" />
 
             <Button
@@ -63,7 +66,8 @@
                 android:onClick="YtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 2" />
             <Button
 
@@ -73,7 +77,8 @@
                 android:onClick="YtPlaylist3"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 3"
                 tools:ignore="OnClick" />
             <Button
@@ -84,7 +89,8 @@
                 android:onClick="FreeCourse"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Free Course" />
             <Button
                 android:id="@+id/paid_course"
@@ -95,7 +101,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="PaidCourse"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Paid Course" />
 
             <Button
@@ -106,7 +113,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="nodejs"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Node Js Interview Questions" />
 
             <Button
@@ -117,7 +125,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="ProjectIdeas"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Project Ideas" />
             <Button
                 android:id="@+id/react"
@@ -127,7 +136,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="ReactNotes"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="React Notes" />
             <Button
                 android:id="@+id/mongodb"
@@ -137,7 +147,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="MongoDB"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Mongo DB Notes" />
             <Button
                 android:id="@+id/jquery"
@@ -147,7 +158,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="JQuery"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="JQuery Notes" />
             <Button
 
@@ -157,7 +169,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="HTML"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="HTML Notes" />
             <Button
 
@@ -167,7 +180,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="CSS"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="CSS Notes" />
 
             <Button
@@ -178,7 +192,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="Angular"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Angular Notes" />
 
 

@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
         item.add(CustomClass("Android Development",R.drawable.androidlogo))
         item.add(CustomClass("Web      " +
                 "Development",R.drawable.weblogo))
-        item.add(CustomClass("Machine      Learning",R.drawable.mllogo))
+        item.add(CustomClass("Machine    " +
+                "Learning",R.drawable.mllogo))
         item.add(CustomClass("Competitive Programming",R.drawable.cplogo))
         item.add(CustomClass("Git/Github",R.drawable.git))
         item.add(CustomClass("Kotlin",R.drawable.kotlinlogo))

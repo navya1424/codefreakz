@@ -27,7 +27,7 @@ class ccpppage : AppCompatActivity() {
 
     fun cppRoadmap2(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "eN7qAu9dTFQ"
+        val videoId = "qszBRjWZwuw"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)

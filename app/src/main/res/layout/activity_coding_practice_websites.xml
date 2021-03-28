@@ -26,7 +26,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="wthree"
                 android:text="W3 School" />
 
@@ -39,7 +40,8 @@
                 android:onClick="hackerank"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="HackerRank" />
 
             <Button
@@ -50,7 +52,8 @@
                 android:onClick="HackerEarth"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="HackerEarth" />
 
 
@@ -62,7 +65,8 @@
                 android:onClick="GFG"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Geeks For Geeks" />
             <Button
                 android:id="@+id/LeetCode"
@@ -72,7 +76,8 @@
                 android:onClick="LeetCode"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="LeetCode" />
             <Button
                 android:id="@+id/CodeChef"
@@ -82,7 +87,8 @@
                 android:onClick="CodeChef"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="CodeChef" />
 
             <Button
@@ -93,7 +99,8 @@
                 android:onClick="CodeForces"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="CodeForces" />
 
             <Button
@@ -104,7 +111,8 @@
                 android:onClick="CodinGame"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="CodinGame(Game Coding)" />
             <Button
                 android:id="@+id/SPOJ"
@@ -114,7 +122,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="SPOJ"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="SPOJ" />
 
             <Button
@@ -125,7 +134,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="InterviewBit"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="InterviewBit" />
 
 
@@ -137,7 +147,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="Codewars"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="CodeWars" />
 
         </LinearLayout>

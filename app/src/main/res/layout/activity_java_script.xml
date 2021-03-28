@@ -27,7 +27,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="javascriptRoadmap1"
                 android:text="Road Map 1" />
 
@@ -40,7 +41,8 @@
                 android:onClick="javascriptRoadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Road Map 2" />
 
             <Button
@@ -51,7 +53,8 @@
                 android:onClick="javascriptYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 1" />
 
 
@@ -64,7 +67,8 @@
                 android:onClick="javascriptYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Youtube Recommended Course 2" />
             <Button
                 android:id="@+id/javascriptinonevideo"
@@ -74,7 +78,8 @@
                 android:onClick="javascriptinonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Javascript In One Video" />
             <Button
                 android:id="@+id/free_course"
@@ -84,7 +89,8 @@
                 android:onClick="javascriptFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Javascript Free Course1(udemy)" />
 
             <Button
@@ -95,7 +101,8 @@
                 android:onClick="javascriptFreeCourse2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Javascript Free Course2(Codecademy)" />
 
             <Button
@@ -106,7 +113,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="javascriptPaidCourse2"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Javascript free Course(Edx)" />
 
             <Button
@@ -117,7 +125,8 @@
                 android:onClick="javascriptPaidCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Javascript paid Course(Udemy)" />
 
 
@@ -129,7 +138,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="javascriptInterviewQuestions"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Javascript Interview Questions" />
 
             <Button
@@ -140,7 +150,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="javascriptProjectIdeas"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:text="Project Ideas" />
             <Button
                 android:id="@+id/javascriptNotes"
@@ -149,7 +160,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="javascriptnotes"
                 android:text="Javascript Notes" />
 
@@ -160,7 +172,8 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:textColor="@color/colorWhite"
                 android:onClick="javascriptBook"
                 android:text="Javascript Book Pdf" />
 

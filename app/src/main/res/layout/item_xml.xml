@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
 
 
     <androidx.cardview.widget.CardView
@@ -17,8 +17,6 @@
         app:cardBackgroundColor="#00BCD4"
         app:cardCornerRadius="5dp"
         app:cardElevation="40dp">
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +28,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
-                
+                android:paddingLeft="10dp"
                 android:src="@drawable/cpplogo"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp" />

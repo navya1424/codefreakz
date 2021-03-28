@@ -101,6 +101,18 @@
             android:background="#FFA500"
             android:onClick="DBMSNOTES"
             android:text="DBMS Notes" />
+
+
+        <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFA500"
+            android:onClick="DBMSORACLENOTES"
+            android:text="Oracle Database Notes" />
         <Button
 
             android:layout_width="fill_parent"

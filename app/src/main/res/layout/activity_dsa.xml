@@ -58,6 +58,18 @@
                 android:onClick="YTPlaylistdsa3"
                 android:text="Youtube Recommended Playlist-3" />
 
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#FFA500"
+                android:onClick="DSCPP"
+                android:text="DSA C++ Free Course "/>
+
             <Button
 
                 android:layout_width="fill_parent"
