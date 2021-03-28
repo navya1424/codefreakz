@@ -27,8 +27,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:onClick="KotlinRoadmap1"
                 android:text="Kotlin VS Java" />
 
@@ -41,8 +40,7 @@
                 android:onClick="KotlinRoadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Why learn kotlin?" />
 
             <Button
@@ -53,8 +51,7 @@
                 android:onClick="KotlinYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Youtube Recommended Course 1" />
 
 
@@ -67,8 +64,7 @@
                 android:onClick="KotlinYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Youtube Recommended Course 2" />
 
 
@@ -80,8 +76,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="ytthree"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Youtube Recommended Course 3" />
             <Button
                 android:id="@+id/Kotlininonevideo"
@@ -91,8 +86,7 @@
                 android:onClick="Kotlininonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Kotlin In One Video" />
             <Button
                 android:id="@+id/free_course"
@@ -102,8 +96,7 @@
                 android:onClick="KotlinFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Kotlin Free Course(udemy)" />
 
             <Button
@@ -114,8 +107,7 @@
                 android:onClick="KotlinPaidCourse"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Kotlin Paid Course(Udemy)" />
 
 
@@ -127,8 +119,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="KotlinInterviewQuestions"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Kotlin Interview Questions" />
 
 
@@ -142,8 +133,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:onClick="KotlinProjectIdeas"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:text="Project Ideas" />
             <Button
                 android:id="@+id/KotlinNotes"
@@ -152,8 +142,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:onClick="Kotlinnotes"
                 android:text="Kotlin Notes" />
 
@@ -164,8 +153,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="#FFA500"
                 android:onClick="KotlinBook"
                 android:text="Kotlin Book Pdf" />
 

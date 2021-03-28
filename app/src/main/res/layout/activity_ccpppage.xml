@@ -27,8 +27,7 @@ android:layout_marginBottom="20dp">
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:onClick="cppRoadmap1"
             android:text="Road Map 1" />
 
@@ -41,8 +40,7 @@ android:layout_marginBottom="20dp">
             android:onClick="cppRoadmap2"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="Road Map 2" />
 
         <Button
@@ -53,8 +51,7 @@ android:layout_marginBottom="20dp">
             android:onClick="cppYtPlayList1"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="Youtube Recommended Course 1" />
 
         <Button
@@ -66,8 +63,7 @@ android:layout_marginBottom="20dp">
             android:onClick="cppYtPlaylist2"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="Youtube Recommended Course 2" />
 
         <Button
@@ -78,8 +74,7 @@ android:layout_marginBottom="20dp">
             android:onClick="cppinonevideo"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="CPP In One Video" />
         <Button
             android:id="@+id/free_course"
@@ -89,8 +84,7 @@ android:layout_marginBottom="20dp">
             android:onClick="cppFreeCourse1"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="CPP Free Course(udemy)" />
 
         <Button
@@ -101,8 +95,7 @@ android:layout_marginBottom="20dp">
             android:onClick="cppFreeCourse2"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="CPP Free Course(Edx)" />
 
         <Button
@@ -113,8 +106,7 @@ android:layout_marginBottom="20dp">
             android:onClick="cppPaidCourse1"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="CPP Paid Course(Udemy)" />
         <Button
             android:id="@+id/paid_course"
@@ -124,8 +116,7 @@ android:layout_marginBottom="20dp">
             android:layout_marginTop="20dp"
             android:onClick="cppPaidCourse2"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="CPP Paid Course(Coursera)" />
 
         <Button
@@ -136,8 +127,7 @@ android:layout_marginBottom="20dp">
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
             android:onClick="cppInterviewQuestions"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="CPP Interview Questions" />
 
         <Button
@@ -148,8 +138,7 @@ android:layout_marginBottom="20dp">
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
             android:onClick="cppProjectIdeas"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:text="Project Ideas" />
         <Button
             android:id="@+id/CPPNotes"
@@ -158,8 +147,7 @@ android:layout_marginBottom="20dp">
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:onClick="cppnotes"
             android:text="CPP Notes" />
 
@@ -170,8 +158,7 @@ android:layout_marginBottom="20dp">
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
-            android:textColor="@color/colorWhite"
+            android:background="#FFA500"
             android:onClick="cppBook"
             android:text="CPP Book Pdf" />
 
