@@ -55,17 +55,6 @@
                 android:text="Youtube Recommended Course 1" />
 
 
-            <Button
-                android:id="@+id/yt_playlist2"
-
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="KotlinYtPlaylist2"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Youtube Recommended Course 2" />
 
 
             <Button
@@ -77,7 +66,7 @@
                 android:layout_marginBottom="30dp"
                 android:onClick="ytthree"
                 android:background="#FFA500"
-                android:text="Youtube Recommended Course 3" />
+                android:text="Youtube Recommended Course 2" />
             <Button
                 android:id="@+id/Kotlininonevideo"
                 android:layout_width="fill_parent"
@@ -125,16 +114,7 @@
 
 
 
-            <Button
-                android:id="@+id/project_ideas"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:onClick="KotlinProjectIdeas"
-                android:background="#FFA500"
-                android:text="Project Ideas" />
+
             <Button
                 android:id="@+id/KotlinNotes"
                 android:layout_width="fill_parent"

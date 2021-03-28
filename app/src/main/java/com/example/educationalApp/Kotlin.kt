@@ -37,10 +37,7 @@ class Kotlin : AppCompatActivity() {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLsyeobzWxl7rooJFZhc3qPLwVROovGCfh"))
         startActivity(browserIntent)
     }
-    fun KotlinYtPlaylist2(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLl4Y2XuUavmuH6xZKU7I5AdZkDs4JyWUN"))
-        startActivity(browserIntent)
-    }
+
     fun Kotlininonevideo(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
         val videoId = "mnkzx3TwbV8"
@@ -72,15 +69,7 @@ class Kotlin : AppCompatActivity() {
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)
     }
-    fun KotlinProjectIdeas(view: View) {
 
-        val btn =findViewById<Button>(R.id.java)
-        val videoId = "KJ_o-JUgGo0"
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
-        intent.putExtra("VIDEO_ID", videoId)
-        startActivity(intent)
-
-    }
     fun Kotlinnotes(view: View) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1t-8WcGITBw_O273IRkkaWkfrWcLyfkx-/view?usp=sharing"))
         startActivity(browserIntent)
