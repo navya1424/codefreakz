@@ -1,108 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bb"
     tools:context="com.example.educationalApp.Some_Cool_Stuffs">
-
-
-<!--   <LinearLayout-->
-<!--       android:layout_width="match_parent"-->
-<!--       android:layout_height="wrap_content"-->
-<!--       android:orientation="vertical">-->
-<!--       <TextView-->
-<!--           android:id="@+id/movietext"-->
-<!--           android:layout_width="match_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:text="Movies For Coders"-->
-<!--           android:textAlignment="center"-->
-<!--           android:textSize="40sp"-->
-<!--           android:padding="30dp"-->
-<!--           android:textColor="#fff"-->
-<!--           android:background="#000"/>-->
-<!--    <ScrollView-->
-<!--        android:id="@+id/scrollView"-->
-<!--        android:layout_width="fill_parent"-->
-<!--        android:layout_height="wrap_content">-->
-
-
-<!--        <Button-->
-
-<!--            android:layout_width="fill_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:textColor="#fff"-->
-<!--            android:textSize="18dp"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:layout_marginBottom="5dp"-->
-<!--            android:background="#000"-->
-
-<!--            android:text="Social Network" />-->
-
-<!--       <Button-->
-
-<!--           android:layout_width="fill_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:textColor="#fff"-->
-<!--           android:textSize="18dp"-->
-<!--           android:layout_marginTop="5dp"-->
-<!--           android:layout_marginBottom="5dp"-->
-<!--           android:background="#000"-->
-
-<!--           android:text="Mr Robot" />-->
-<!--       <Button-->
-
-<!--           android:layout_width="fill_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:textColor="#fff"-->
-<!--           android:textSize="18dp"-->
-<!--           android:layout_marginTop="5dp"-->
-<!--           android:layout_marginBottom="5dp"-->
-<!--           android:background="#000"-->
-
-<!--           android:text="Silicon Vally" />-->
-<!--       <Button-->
-
-<!--           android:layout_width="fill_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:textColor="#fff"-->
-<!--           android:textSize="18dp"-->
-<!--           android:layout_marginTop="5dp"-->
-<!--           android:layout_marginBottom="5dp"-->
-<!--           android:background="#000"-->
-
-<!--           android:text="Pirates of Silicon Vally" />-->
-
-<!--       <Button-->
-
-<!--           android:layout_width="fill_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:textColor="#fff"-->
-<!--           android:textSize="18dp"-->
-<!--           android:layout_marginTop="5dp"-->
-<!--           android:layout_marginBottom="5dp"-->
-<!--           android:background="#000"-->
-
-<!--           android:text="Jobs" >-->
-
-<!--       </Button>-->
-<!--       <Button-->
-
-<!--           android:layout_width="fill_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:textColor="#fff"-->
-<!--           android:textSize="18dp"-->
-<!--           android:layout_marginTop="5dp"-->
-<!--           android:layout_marginBottom="5dp"-->
-<!--           android:background="#000"-->
-
-<!--           android:text="Snowden" >-->
-
-<!--       </Button>-->
-<!--       </ScrollView>-->
-
-<!--   </LinearLayout>-->
-
 
 
     <ScrollView
@@ -121,10 +25,11 @@
                        android:layout_height="wrap_content"
                        android:text="Movies And Series For Coders"
                        android:textAlignment="center"
-                       android:textSize="18dp"
+                       android:textSize="25dp"
+                       android:textStyle="bold|italic"
                        android:padding="20dp"
                        android:textColor="#fff"
-                       android:background="#000"/>
+                       />
 
             <Button
 
@@ -133,9 +38,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="SiliconVally"
-                android:text="Silicon Vally" />
+                android:text="Silicon Vally"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -143,9 +50,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="MrRobot"
-                android:text="Mr Robot" />
+                android:text="Mr Robot"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -153,9 +62,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="SocialNetwork"
-                android:text="Social Network" />
+                android:text="Social Network"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -163,9 +74,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="Snowden"
-                android:text="Snowden" />
+                android:text="Snowden"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -175,9 +87,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="Pirates"
-                android:text="Pirates Of Silicon Vally" />
+                android:text="Pirates Of Silicon Vally"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -185,9 +99,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="Jobs"
-                android:text="Jobs" />
+                android:text="Jobs"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -196,10 +111,12 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="BlackMirror"
                 android:text="Black Mirror"
+                android:textColor="@color/colorWhite"
                 tools:ignore="OnClick" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -207,10 +124,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="Internship"
                 android:text="Internship"
-                 />
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -218,10 +136,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="ImitationGame"
                 android:text="The Imitation Game"
-                />
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -229,10 +148,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="Matrix"
                 android:text="The Matrix"
-                />
+                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bb"
     tools:context="com.example.educationalApp.Dsa">
 
     <ScrollView
@@ -24,9 +25,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="DSARoadmap"
-                android:text=" DSA Road Map" />
+                android:text=" DSA Road Map"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -34,19 +37,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="YTPlaylistdsa1"
-                android:text="Youtube Recommended Playlist-1" />
-            <Button
+                android:text="Youtube Recommended Playlist-1"
+                android:textColor="@color/colorWhite" />
 
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp"
-            android:background="#FFA500"
-            android:onClick="YTPlaylistdsa2"
-            android:text="Youtube Recommended Playlist-2" />
             <Button
 
                 android:layout_width="fill_parent"
@@ -54,9 +49,22 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
+                android:onClick="YTPlaylistdsa2"
+                android:text="Youtube Recommended Playlist-2"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#000000"
                 android:onClick="YTPlaylistdsa3"
-                android:text="Youtube Recommended Playlist-3" />
+                android:text="Youtube Recommended Playlist-3"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -66,9 +74,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="DSCPP"
-                android:text="DSA C++ Free Course "/>
+                android:text="DSA C++ Free Course "
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -77,9 +86,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="PaidCourse"
-                android:text="DSA Self Placed Course(Paid)" />
+                android:text="DSA Self Placed Course(Paid)"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -87,9 +98,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="DSABook"
-                android:text="Dsa Book" />
+                android:text="Dsa Book"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -97,9 +110,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="AlgoBook"
-                android:text="Algorithm Book" />
+                android:text="Algorithm Book"
+                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>

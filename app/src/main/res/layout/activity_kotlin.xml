@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="20dp"
-
-    android:layout_marginBottom="20dp">
+    android:background="@drawable/bb"
+    >
 
 
     <ScrollView
@@ -27,9 +27,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="KotlinRoadmap1"
-                android:text="Kotlin VS Java" />
+                android:text="Kotlin VS Java"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -37,35 +38,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinRoadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Why learn kotlin?" />
+                android:background="#000000"
+                android:onClick="KotlinRoadmap2"
+                android:text="Why learn kotlin?"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/yt_playlist1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="#000000"
                 android:onClick="KotlinYtPlayList1"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Youtube Recommended Course 1" />
-
-
-            <Button
-                android:id="@+id/yt_playlist2"
-
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="KotlinYtPlaylist2"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Youtube Recommended Course 2" />
+                android:text="Youtube Recommended Course 1"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -75,40 +65,46 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="#000000"
                 android:onClick="ytthree"
-                android:background="#FFA500"
-                android:text="Youtube Recommended Course 3" />
+                android:text="Youtube Recommended Course 2"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/Kotlininonevideo"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Kotlininonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Kotlin In One Video" />
+                android:background="#000000"
+                android:onClick="Kotlininonevideo"
+                android:text="Kotlin In One Video"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/free_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Kotlin Free Course(udemy)" />
+                android:background="#000000"
+                android:onClick="KotlinFreeCourse1"
+                android:text="Kotlin Free Course(udemy)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/paid_course1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="KotlinPaidCourse"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
-                android:text="Kotlin Paid Course(Udemy)" />
+                android:background="#000000"
+                android:onClick="KotlinPaidCourse"
+                android:text="Kotlin Paid Course(Udemy)"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -118,23 +114,12 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="#000000"
                 android:onClick="KotlinInterviewQuestions"
-                android:background="#FFA500"
-                android:text="Kotlin Interview Questions" />
+                android:text="Kotlin Interview Questions"
+                android:textColor="@color/colorWhite" />
 
 
-
-
-            <Button
-                android:id="@+id/project_ideas"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:onClick="KotlinProjectIdeas"
-                android:background="#FFA500"
-                android:text="Project Ideas" />
             <Button
                 android:id="@+id/KotlinNotes"
                 android:layout_width="fill_parent"
@@ -142,9 +127,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="Kotlinnotes"
-                android:text="Kotlin Notes" />
+                android:text="Kotlin Notes"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/KotlinBook"
@@ -153,9 +139,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#FFA500"
+                android:background="#000000"
                 android:onClick="KotlinBook"
-                android:text="Kotlin Book Pdf" />
+                android:text="Kotlin Book Pdf"
+                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>

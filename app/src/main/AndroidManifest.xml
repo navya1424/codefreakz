@@ -18,7 +18,6 @@
         <activity android:name="com.example.educationalApp.First_Year" />
         <activity android:name="com.example.educationalApp.Third_Year" />
         <activity android:name="com.example.educationalApp.Second_Year" />
-        <activity android:name="com.example.educationalApp.First_Year" />
         <activity android:name="com.example.educationalApp.FreeCourses" />
         <activity android:name="com.example.educationalApp.JavaScript" />
         <activity android:name="com.example.educationalApp.Kotlin" />
@@ -29,8 +28,6 @@
         <activity android:name="com.example.educationalApp.CProgramming" />
         <activity android:name="com.example.educationalApp.CP" />
         <activity android:name="com.example.educationalApp.Dsa" />
-        <activity android:name="com.example.educationalApp.Login" />
-        <activity android:name=".FreeCourses" />
         <activity android:name=".EngSubs" />
         <activity android:name=".SplashScreen">
             <intent-filter>
