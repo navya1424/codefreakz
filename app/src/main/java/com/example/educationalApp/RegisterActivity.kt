@@ -26,47 +26,47 @@ import kotlinx.coroutines.withContext
 import java.util.concurrent.TimeUnit
 
 class RegisterActivity : AppCompatActivity() {
-    private var mAuth: FirebaseAuth? = null
+    //    private var mAuth: FirebaseAuth? = null
     private lateinit var auth: FirebaseAuth
-    private var edtPhone: EditText? = null
-    private var edtOTP: EditText? = null
-    private var verifyOTPBtn: Button? = null
-    private var generateOTPBtn: Button? = null
+//    private var edtPhone: EditText? = null
+//    private var edtOTP: EditText? = null
+//    private var verifyOTPBtn: Button? = null
+//    private var generateOTPBtn: Button? = null
 
-    private var verificationId: String? = null
+    //    private var verificationId: String? = null
     private val RC_SIGN_IN: Int = 123
     private val TAG = "SignInActivity Tag"
     private lateinit var googleSignInClient: GoogleSignInClient
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+//
+//        mAuth = FirebaseAuth.getInstance()
+//        edtPhone = findViewById(R.id.idEdtPhoneNumber)
+//        edtOTP = findViewById(R.id.idEdtOtp)
+//        verifyOTPBtn = findViewById(R.id.idBtnVerify)
+//        generateOTPBtn = findViewById(R.id.number)
+//
+//        findViewById<Button>(R.id.number).setOnClickListener {
+//
+//            if (TextUtils.isEmpty(findViewById<EditText>(R.id.idEdtPhoneNumber).text.toString())) {
+//
+//                Toast.makeText(this, "Please enter a valid phone number.", Toast.LENGTH_SHORT).show()
+//            } else {
+//
+//                val phone =  findViewById<EditText>(R.id.idEdtPhoneNumber).text.toString()
+//                sendVerificationCode(phone)
+//            }
+//        }
 
-        mAuth = FirebaseAuth.getInstance()
-        edtPhone = findViewById(R.id.idEdtPhoneNumber)
-        edtOTP = findViewById(R.id.idEdtOtp)
-        verifyOTPBtn = findViewById(R.id.idBtnVerify)
-        generateOTPBtn = findViewById(R.id.number)
 
-        findViewById<Button>(R.id.number).setOnClickListener {
-
-            if (TextUtils.isEmpty(findViewById<EditText>(R.id.idEdtPhoneNumber).text.toString())) {
-
-                Toast.makeText(this, "Please enter a valid phone number.", Toast.LENGTH_SHORT).show()
-            } else {
-
-                val phone =  findViewById<EditText>(R.id.idEdtPhoneNumber).text.toString()
-                sendVerificationCode(phone)
-            }
-        }
-
-
-        findViewById<Button>(R.id.idBtnVerify).setOnClickListener {
-
-            if (TextUtils.isEmpty(findViewById<EditText>(R.id.idEdtOtp).text.toString())) {
-
-                Toast.makeText(this, "Please enter OTP", Toast.LENGTH_SHORT).show()
-            } else verifyCode((findViewById<EditText>(R.id.idEdtOtp).text.toString()))
-        }
+//        findViewById<Button>(R.id.idBtnVerify).setOnClickListener {
+//
+//            if (TextUtils.isEmpty(findViewById<EditText>(R.id.idEdtOtp).text.toString())) {
+//
+//                Toast.makeText(this, "Please enter OTP", Toast.LENGTH_SHORT).show()
+//            } else verifyCode((findViewById<EditText>(R.id.idEdtOtp).text.toString()))
+//        }
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
@@ -141,76 +141,76 @@ class RegisterActivity : AppCompatActivity() {
         }
 
     }
-    private fun signInWithCredential(credential: PhoneAuthCredential) {
-        // inside this method we are checking if
-        // the code entered is correct or not.
-        mAuth!!.signInWithCredential(credential)
-            .addOnCompleteListener { task ->
-                if (task.isSuccessful) {
-                    // if the code is correct and the task is successful
-                    // we are sending our user to new activity.
-                    val i = Intent(this, MainActivity::class.java)
-                    startActivity(i)
-                    finish()
-                } else {
-                    // if the code is not correct then we are
-                    // displaying an error message to the user.
-                    Toast.makeText(this, task.exception!!.message, Toast.LENGTH_LONG).show()
-                }
-            }
-    }
-
-    private fun sendVerificationCode(number: String) {
-        // this method is used for getting
-        // OTP on user phone number.
-        // auto verification of user.
-        val options = PhoneAuthOptions.newBuilder(mAuth)
-            .setPhoneNumber(number)       // Phone number to verify
-            .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
-            .setActivity(this)                 // Activity (for callback binding)
-            .setCallbacks(mCallBack)          // OnVerificationStateChangedCallbacks
-            .build()
-        PhoneAuthProvider.verifyPhoneNumber(options)
-
-
-
-//        )
-    }
-
-
-    private val mCallBack: PhoneAuthProvider.OnVerificationStateChangedCallbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
-        override fun onCodeSent(s: String, forceResendingToken: PhoneAuthProvider.ForceResendingToken) {
-            super.onCodeSent(s, forceResendingToken)
-            verificationId = s
-            findViewById<LinearLayout>(R.id.PhoneLayout).visibility = View.GONE
-            findViewById<LinearLayout>(R.id.OTPLayout).visibility = View.VISIBLE
-
-        }
-
-        override fun onVerificationCompleted(phoneAuthCredential: PhoneAuthCredential) {
-
-
-            val code = phoneAuthCredential.smsCode
-            if (code != null) {
-                edtOTP!!.setText(code)
-
-                verifyCode(code)
-            }
-        }
-
-
-        override fun onVerificationFailed(e: FirebaseException) {
-
-            Toast.makeText(applicationContext, e.message, Toast.LENGTH_LONG).show()
-        }
-    }
-
-
-    private fun verifyCode(code: String) {
-        findViewById<ProgressBar>(R.id.ProgressBar).visibility = View.VISIBLE
-        val credential = PhoneAuthProvider.getCredential(verificationId, code)
-
-
-        signInWithCredential(credential)
-    }
+//    private fun signInWithCredential(credential: PhoneAuthCredential) {
+//        // inside this method we are checking if
+//        // the code entered is correct or not.
+//        mAuth!!.signInWithCredential(credential)
+//            .addOnCompleteListener { task ->
+//                if (task.isSuccessful) {
+//                    // if the code is correct and the task is successful
+//                    // we are sending our user to new activity.
+//                    val i = Intent(this, MainActivity::class.java)
+//                    startActivity(i)
+//                    finish()
+//                } else {
+//                    // if the code is not correct then we are
+//                    // displaying an error message to the user.
+//                    Toast.makeText(this, task.exception!!.message, Toast.LENGTH_LONG).show()
+//                }
+//            }
+//    }
+//
+//    private fun sendVerificationCode(number: String) {
+//        // this method is used for getting
+//        // OTP on user phone number.
+//        // auto verification of user.
+//        val options = PhoneAuthOptions.newBuilder(mAuth)
+//            .setPhoneNumber(number)       // Phone number to verify
+//            .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
+//            .setActivity(this)                 // Activity (for callback binding)
+//            .setCallbacks(mCallBack)          // OnVerificationStateChangedCallbacks
+//            .build()
+//        PhoneAuthProvider.verifyPhoneNumber(options)
+//
+//
+//
+////        )
+//    }
+//
+//
+//    private val mCallBack: PhoneAuthProvider.OnVerificationStateChangedCallbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+//        override fun onCodeSent(s: String, forceResendingToken: PhoneAuthProvider.ForceResendingToken) {
+//            super.onCodeSent(s, forceResendingToken)
+//            verificationId = s
+//            findViewById<LinearLayout>(R.id.PhoneLayout).visibility = View.GONE
+//            findViewById<LinearLayout>(R.id.OTPLayout).visibility = View.VISIBLE
+//
+//        }
+//
+//        override fun onVerificationCompleted(phoneAuthCredential: PhoneAuthCredential) {
+//
+//
+//            val code = phoneAuthCredential.smsCode
+//            if (code != null) {
+//                edtOTP!!.setText(code)
+//
+//                verifyCode(code)
+//            }
+//        }
+//
+//
+//        override fun onVerificationFailed(e: FirebaseException) {
+//
+//            Toast.makeText(applicationContext, e.message, Toast.LENGTH_LONG).show()
+//        }
+//    }
+//
+//
+//    private fun verifyCode(code: String) {
+//        findViewById<ProgressBar>(R.id.ProgressBar).visibility = View.VISIBLE
+//        val credential = PhoneAuthProvider.getCredential(verificationId, code)
+//
+//
+//        signInWithCredential(credential)
+//    }
 }

@@ -149,6 +149,7 @@
                 android:background="#000000"
                 android:textColor="@color/colorWhite"
                 android:text="Project Ideas" />
+
             <Button
                 android:id="@+id/DSNotes"
                 android:layout_width="fill_parent"

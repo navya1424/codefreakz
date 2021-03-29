@@ -80,13 +80,12 @@ class DataScience : AppCompatActivity() {
         startActivity(browserIntent)
 
     }
+
     fun DSnotes(view: View) {
         val btn =findViewById<Button>(R.id.DSNotes)
     }
     fun DSBook(view: View) {
         val btn =findViewById<Button>(R.id.DSBook)
     }
-
-
 
 }
