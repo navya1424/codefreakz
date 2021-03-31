@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -24,10 +24,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="SE"
-                android:text="Software Engineering" />
+                android:text="Software Engineering"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -35,24 +35,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="WE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Wireless Engineer" />
+                android:background="@drawable/button_border"
+                android:onClick="WE"
+                android:text="Wireless Engineer"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/NA"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="NA"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Network Administrator" />
+                android:background="@drawable/button_border"
+                android:onClick="NA"
+                android:text="Network Administrator"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -60,69 +60,72 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning Engineer" />
+                android:background="@drawable/button_border"
+                android:onClick="MLE"
+                android:text="Machine Learning Engineer"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/DSE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Scientist" />
+                android:background="@drawable/button_border"
+                android:onClick="DSE"
+                android:text="Data Scientist"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/CGD"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CGD"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Computer Graphic Designer" />
+                android:background="@drawable/button_border"
+                android:onClick="CGD"
+                android:text="Computer Graphic Designer"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/CHE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CHE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Computer Hardware Engineer" />
+                android:background="@drawable/button_border"
+                android:onClick="CHE"
+                android:text="Computer Hardware Engineer"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/Database"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Database"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Database Administrator" />
+                android:background="@drawable/button_border"
+                android:onClick="Database"
+                android:text="Database Administrator"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/EH"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="EH"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Ethical Hacking" />
+                android:background="@drawable/button_border"
+                android:onClick="EH"
+                android:text="Ethical Hacking"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/DataAnalyst"
@@ -131,10 +134,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="DataAnalyst"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Analyst" />
+                android:text="Data Analyst"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/AD"
@@ -143,10 +146,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="AD"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Android Developer" />
+                android:text="Android Developer"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/WEB"
                 android:layout_width="fill_parent"
@@ -154,10 +158,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="WEB"
-                android:text="Web Developer" />
+                android:text="Web Developer"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/SystemDesigner"
@@ -166,10 +170,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="SystemDesigner"
-                android:text="System Designer" />
+                android:text="System Designer"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -177,10 +182,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="Devops"
-                android:text="Devops Engineer" />
+                android:text="Devops Engineer"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -188,10 +194,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="CyberSecurityEngineer"
-                android:text="Cyber Security Engineer" />
+                android:text="Cyber Security Engineer"
+                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>

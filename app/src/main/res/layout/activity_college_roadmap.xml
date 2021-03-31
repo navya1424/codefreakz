@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -23,11 +23,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="lovebabbar"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Complete Roadmap For College Student(part1)" />
+                android:background="@drawable/button_border"
+                android:onClick="lovebabbar"
+                android:text="Complete Roadmap For College Student(part1)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/parttwo"
@@ -35,11 +35,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="parttwo"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Complete Roadmap For College Student(part2)" />
+                android:background="@drawable/button_border"
+                android:onClick="parttwo"
+                android:text="Complete Roadmap For College Student(part2)"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -48,11 +48,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="second"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Off Campus Internship In 2nd Year" />
+                android:background="@drawable/button_border"
+                android:onClick="second"
+                android:text="Off Campus Internship In 2nd Year"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/final_year"
@@ -60,11 +60,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="Final_year"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Final Year Placement Roadmap" />
+                android:background="@drawable/button_border"
+                android:onClick="Final_year"
+                android:text="Final Year Placement Roadmap"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/first"
@@ -73,10 +73,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="first"
-                android:text="Are you a fresher?? Click Here!!" />
+                android:text="Are you a fresher?? Click Here!!"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -84,24 +84,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="off_campus"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Off Campus Placement -1" />
+                android:background="@drawable/button_border"
+                android:onClick="off_campus"
+                android:text="Off Campus Placement -1"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/off_campus_two"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="off_campus_two"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Roadmap to off Campus" />
+                android:background="@drawable/button_border"
+                android:onClick="off_campus_two"
+                android:text="Roadmap to off Campus"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -109,59 +109,60 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MBA"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="5 reasons to do MBA" />
+                android:background="@drawable/button_border"
+                android:onClick="MBA"
+                android:text="5 reasons to do MBA"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/coder"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="coder"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="How to be a 5 star coder?" />
+                android:background="@drawable/button_border"
+                android:onClick="coder"
+                android:text="How to be a 5 star coder?"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/college"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="college"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="How to study for college placement" />
+                android:background="@drawable/button_border"
+                android:onClick="college"
+                android:text="How to study for college placement"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/internship"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="internship"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="All About Internships" />
+                android:background="@drawable/button_border"
+                android:onClick="internship"
+                android:text="All About Internships"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/Interviews"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Interviews"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Interview Experiences" />
+                android:background="@drawable/button_border"
+                android:onClick="Interviews"
+                android:text="Interview Experiences"
+                android:textColor="@color/colorWhite" />
 
         </LinearLayout>
 

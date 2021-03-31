@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -24,10 +24,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="wthree"
-                android:text="W3 School" />
+                android:text="W3 School"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -35,24 +35,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="hackerank"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="HackerRank" />
+                android:background="@drawable/button_border"
+                android:onClick="hackerank"
+                android:text="HackerRank"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/HackerEarth"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="HackerEarth"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="HackerEarth" />
+                android:background="@drawable/button_border"
+                android:onClick="HackerEarth"
+                android:text="HackerEarth"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -60,69 +60,72 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="GFG"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Geeks For Geeks" />
+                android:background="@drawable/button_border"
+                android:onClick="GFG"
+                android:text="Geeks For Geeks"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/LeetCode"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="LeetCode"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="LeetCode" />
+                android:background="@drawable/button_border"
+                android:onClick="LeetCode"
+                android:text="LeetCode"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/CodeChef"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CodeChef"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CodeChef" />
+                android:background="@drawable/button_border"
+                android:onClick="CodeChef"
+                android:text="CodeChef"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/CodeForces"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CodeForces"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CodeForces" />
+                android:background="@drawable/button_border"
+                android:onClick="CodeForces"
+                android:text="CodeForces"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/CodinGame"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CodinGame"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CodinGame(Game Coding)" />
+                android:background="@drawable/button_border"
+                android:onClick="CodinGame"
+                android:text="CodinGame(Game Coding)"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/SPOJ"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="SPOJ"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="SPOJ" />
+                android:background="@drawable/button_border"
+                android:onClick="SPOJ"
+                android:text="SPOJ"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/InterviewBit"
@@ -131,10 +134,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="InterviewBit"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="InterviewBit" />
+                android:text="InterviewBit"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -144,10 +147,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="Codewars"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CodeWars" />
+                android:text="CodeWars"
+                android:textColor="@color/colorWhite" />
 
         </LinearLayout>
 

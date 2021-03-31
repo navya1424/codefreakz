@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb"
+    android:background="@drawable/bgg"
     tools:context="com.example.educationalApp.Some_Cool_Stuffs">
 
 
@@ -38,7 +38,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="SiliconVally"
                 android:text="Silicon Vally"
                 android:textColor="@color/colorWhite" />
@@ -50,7 +50,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="MrRobot"
                 android:text="Mr Robot"
                 android:textColor="@color/colorWhite" />
@@ -62,7 +62,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="SocialNetwork"
                 android:text="Social Network"
                 android:textColor="@color/colorWhite" />
@@ -74,7 +74,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="Snowden"
                 android:text="Snowden"
                 android:textColor="@color/colorWhite" />
@@ -87,7 +87,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="Pirates"
                 android:text="Pirates Of Silicon Vally"
                 android:textColor="@color/colorWhite" />
@@ -99,7 +99,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="Jobs"
                 android:text="Jobs"
                 android:textColor="@color/colorWhite" />
@@ -111,7 +111,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="BlackMirror"
                 android:text="Black Mirror"
                 android:textColor="@color/colorWhite"
@@ -124,7 +124,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="Internship"
                 android:text="Internship"
                 android:textColor="@color/colorWhite" />
@@ -136,7 +136,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="ImitationGame"
                 android:text="The Imitation Game"
                 android:textColor="@color/colorWhite" />
@@ -148,7 +148,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="Matrix"
                 android:text="The Matrix"
                 android:textColor="@color/colorWhite" />

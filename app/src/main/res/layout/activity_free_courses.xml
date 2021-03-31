@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -24,39 +24,37 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="channelone"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Free  Courses - Telegram Channel Link-1" />
+                android:background="@drawable/button_border"
+                android:onClick="channelone"
+                android:text="Free  Courses - Telegram Channel Link-1"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:id="@+id/channeltwo"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="channeltwo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Free  Courses - Telegram Channel Link-2" />
+                android:background="@drawable/button_border"
+                android:onClick="channeltwo"
+                android:text="Free  Courses - Telegram Channel Link-2"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/channelthree"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="channelthree"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Coding Guy - Telegram Channel Link" />
-
-
-
+                android:background="@drawable/button_border"
+                android:onClick="channelthree"
+                android:text="Coding Guy - Telegram Channel Link"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -64,168 +62,180 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Instatwo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Instagram Page to learn Java" />
+                android:background="@drawable/button_border"
+                android:onClick="Instatwo"
+                android:text="Instagram Page to learn Java"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/Pythonpage"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Instathree"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Instagram Page to learn Python-1" />
+                android:background="@drawable/button_border"
+                android:onClick="Instathree"
+                android:text="Instagram Page to learn Python-1"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/Instafour"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Instafour"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Instagram Page to learn Python-2" />
+                android:background="@drawable/button_border"
+                android:onClick="Instafour"
+                android:text="Instagram Page to learn Python-2"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/telegramoffcampus"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="OFFCAMPUS"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Telegram Channel for Offcampus jobs" />
+                android:background="@drawable/button_border"
+                android:onClick="OFFCAMPUS"
+                android:text="Telegram Channel for Offcampus jobs"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/codingquestion"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CodingQuestion"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Instagram Page For Coding Questions" />
+                android:background="@drawable/button_border"
+                android:onClick="CodingQuestion"
+                android:text="Instagram Page For Coding Questions"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/appdevelopment"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="AppDevlopement"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Instagram Page to learn app development" />
+                android:background="@drawable/button_border"
+                android:onClick="AppDevlopement"
+                android:text="Instagram Page to learn app development"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/cybersecurity"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CyberSecurity"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Instagram Page to learn Cyber Security" />
+                android:background="@drawable/button_border"
+                android:onClick="CyberSecurity"
+                android:text="Instagram Page to learn Cyber Security"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/js"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="RedditJs"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Reddit Java Script Community" />
+                android:background="@drawable/button_border"
+                android:onClick="RedditJs"
+                android:text="Reddit Java Script Community"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/javacommunity"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="RedditJava"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Reddit Java Community" />
+                android:background="@drawable/button_border"
+                android:onClick="RedditJava"
+                android:text="Reddit Java Community"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/kotlincommunity"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="RedditKotlin"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Reddit Kotlin Community" />
+                android:background="@drawable/button_border"
+                android:onClick="RedditKotlin"
+                android:text="Reddit Kotlin Community"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/awsdiscord"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="AWSDisCord"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="AWS Discord Server" />
+                android:background="@drawable/button_border"
+                android:onClick="AWSDisCord"
+                android:text="AWS Discord Server"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/pythondiscord"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="PythonDiscord"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Python Discord Server" />
+                android:text="Python Discord Server"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="RedditAndroid"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Reddit Android Community" />
+                android:text="Reddit Android Community"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="ProgrammingNews"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Programming News" />
+                android:text="Programming News"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Website"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Website To Practice Coding" />
+                android:background="@drawable/button_border"
+                android:onClick="Website"
+                android:text="Website To Practice Coding"
+                android:textColor="@color/colorWhite" />
 
 
 

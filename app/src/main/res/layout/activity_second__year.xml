@@ -7,7 +7,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
         <ScrollView
@@ -27,86 +27,87 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_border"
                     android:onClick="SE"
-                    android:text="Software Engineering" />
+                    android:text="Software Engineering"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="OP"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Operating System" />
+                    android:text="Operating System"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="Oopm"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Object Oriented Programming and Methodology" />
+                    android:text="Object Oriented Programming and Methodology"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="M3"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Mathematics III" />
+                    android:text="Mathematics III"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="EEE"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Energy And Environmental Engineering" />
+                    android:text="Energy And Environmental Engineering"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="DS"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Discrete Structure" />
+                    android:text="Discrete Structure"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="Disy"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Digital Systems" />
+                    android:text="Digital Systems"
+                    android:textColor="@color/colorWhite" />
+
                 <Button
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="Dastru"
-                    android:layout_marginBottom="30dp"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Data Structure" />
+                    android:text="Data Structure"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
@@ -114,10 +115,10 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_border"
                     android:onClick="COA"
-                    android:background="#000000"
-                    android:textColor="@color/colorWhite"
-                    android:text="Computer Organization and Architecture" />
+                    android:text="Computer Organization and Architecture"
+                    android:textColor="@color/colorWhite" />
 
                 <Button
                     android:layout_width="fill_parent"
@@ -125,7 +126,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="30dp"
-                    android:background="#000000"
+                    android:background="@drawable/button_border"
                     android:onClick="ADA"
                     android:text="Analysis and Design of Algorithm"
                     android:textColor="@color/colorWhite" />

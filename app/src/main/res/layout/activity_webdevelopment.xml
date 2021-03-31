@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
     <ScrollView
@@ -25,10 +25,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="Roadmap"
-                android:text="Road Map 1" />
+                android:text="Road Map 1"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -36,24 +36,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Roadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Road Map 2" />
+                android:background="@drawable/button_border"
+                android:onClick="Roadmap2"
+                android:text="Road Map 2"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/yt_playlist1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="YtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 1" />
+                android:background="@drawable/button_border"
+                android:onClick="YtPlayList1"
+                android:text="Youtube Recommended Course 1"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/yt_playlist2"
@@ -61,35 +61,38 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="YtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 2" />
+                android:background="@drawable/button_border"
+                android:onClick="YtPlaylist2"
+                android:text="Youtube Recommended Course 2"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="YtPlaylist3"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
+                android:onClick="YtPlaylist3"
                 android:text="Youtube Recommended Course 3"
+                android:textColor="@color/colorWhite"
                 tools:ignore="OnClick" />
+
             <Button
                 android:id="@+id/free_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="FreeCourse"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Free Course" />
+                android:background="@drawable/button_border"
+                android:onClick="FreeCourse"
+                android:text="Free Course"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/paid_course"
 
@@ -97,11 +100,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="PaidCourse"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Paid Course" />
+                android:background="@drawable/button_border"
+                android:onClick="PaidCourse"
+                android:text="Paid Course"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/nodejs"
@@ -110,10 +113,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="nodejs"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Node Js Interview Questions" />
+                android:text="Node Js Interview Questions"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/project_ideas"
@@ -122,10 +125,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="ProjectIdeas"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Project Ideas" />
+                android:text="Project Ideas"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/react"
                 android:layout_width="fill_parent"
@@ -133,10 +137,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="ReactNotes"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="React Notes" />
+                android:text="React Notes"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/mongodb"
                 android:layout_width="fill_parent"
@@ -144,10 +149,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="MongoDB"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Mongo DB Notes" />
+                android:text="Mongo DB Notes"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/jquery"
                 android:layout_width="fill_parent"
@@ -155,10 +161,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="JQuery"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="JQuery Notes" />
+                android:text="JQuery Notes"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -166,10 +173,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="HTML"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="HTML Notes" />
+                android:text="HTML Notes"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -177,10 +185,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="CSS"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CSS Notes" />
+                android:text="CSS Notes"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -189,10 +197,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="Angular"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Angular Notes" />
+                android:text="Angular Notes"
+                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
      <ScrollView
@@ -25,10 +25,10 @@
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
+                   android:background="@drawable/button_border"
                    android:onClick="javaRoadmap1"
-                   android:text="Road Map 1" />
+                   android:text="Road Map 1"
+                   android:textColor="@color/colorWhite" />
 
                <Button
 
@@ -36,94 +36,96 @@
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="javaRoadmap2"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Road Map 2" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaRoadmap2"
+                   android:text="Road Map 2"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/yt_playlist1"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="javaYtPlayList1"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Youtube Recommended Course 1" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaYtPlayList1"
+                   android:text="Youtube Recommended Course 1"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/yt_playlist2"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="javaYtPlaylist2"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Youtube Recommended Course 2" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaYtPlaylist2"
+                   android:text="Youtube Recommended Course 2"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/javaOneVideo"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="javaOneVideo"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Java In One Video" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaOneVideo"
+                   android:text="Java In One Video"
+                   android:textColor="@color/colorWhite" />
+
                <Button
                    android:id="@+id/free_course"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="javaFreeCourse"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Java Free Course(udemy)" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaFreeCourse"
+                   android:text="Java Free Course(udemy)"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/free_course1"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="javaFreeCourse1"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Java Free Course(Udacity)" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaFreeCourse1"
+                   android:text="Java Free Course(Udacity)"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/paid_course1"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
-                   android:onClick="javaPaidCourse2"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Java Paid Course(Coursera)" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaPaidCourse2"
+                   android:text="Java Paid Course(Coursera)"
+                   android:textColor="@color/colorWhite" />
+
                <Button
                    android:id="@+id/paid_course"
                    android:layout_width="fill_parent"
                    android:layout_height="wrap_content"
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
-                   android:onClick="javaPaidCourse1"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Java Paid Course(Udemy)" />
+                   android:background="@drawable/button_border"
+                   android:onClick="javaPaidCourse1"
+                   android:text="Java Paid Course(Udemy)"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/java"
@@ -132,10 +134,10 @@
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
+                   android:background="@drawable/button_border"
                    android:onClick="javaInterviewQuestions"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Java Interview Questions" />
+                   android:text="Java Interview Questions"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/project_ideas"
@@ -144,10 +146,11 @@
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
+                   android:background="@drawable/button_border"
                    android:onClick="javaProjectIdeas"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
-                   android:text="Project Ideas" />
+                   android:text="Project Ideas"
+                   android:textColor="@color/colorWhite" />
+
                <Button
                    android:id="@+id/JavaNotes"
                    android:layout_width="fill_parent"
@@ -155,10 +158,10 @@
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
+                   android:background="@drawable/button_border"
                    android:onClick="javanotes"
-                   android:text="Java Notes" />
+                   android:text="Java Notes"
+                   android:textColor="@color/colorWhite" />
 
                <Button
                    android:id="@+id/JavaBook"
@@ -167,10 +170,10 @@
                    android:layout_margin="10dp"
                    android:layout_marginTop="20dp"
                    android:layout_marginBottom="30dp"
-                   android:background="#000000"
-                   android:textColor="@color/colorWhite"
+                   android:background="@drawable/button_border"
                    android:onClick="Javabook"
-                   android:text="Java Book Pdf" />
+                   android:text="Java Book Pdf"
+                   android:textColor="@color/colorWhite" />
 
 
           </LinearLayout>

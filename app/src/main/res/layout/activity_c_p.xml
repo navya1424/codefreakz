@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb"
+    android:background="@drawable/bgg"
     tools:context="com.example.educationalApp.CP">
     <ScrollView
         android:layout_width="fill_parent"
@@ -24,10 +24,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="CPRoadmap"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CP Roadmap" />
+                android:text="CP Roadmap"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -35,10 +36,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="CPBASICS"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Basics for Cp Playlist" />
+                android:text="Basics for Cp Playlist"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -46,10 +48,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="CPYoutubePlaylist1"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CP Youtube Playlist-1" />
+                android:text="CP Youtube Playlist-1"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -57,10 +60,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="CPYoutubePlaylist2"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="CP Youtube Playlist-2" />
+                android:text="CP Youtube Playlist-2"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -69,10 +72,11 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="PracticeCp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Guide To CP Book" />
+                android:text="Guide To CP Book"
+                android:textColor="@color/colorWhite" />
+
             <Button
 
                 android:layout_width="fill_parent"
@@ -80,10 +84,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="CPArticle"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="How to Master Cp article" />
+                android:text="How to Master Cp article"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -92,10 +96,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="TricksCp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Tricks For Cp" />
+                android:text="Tricks For Cp"
+                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>

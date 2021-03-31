@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
     <ScrollView
@@ -26,10 +26,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="Mone"
-                android:text="Mathematics-1" />
+                android:text="Mathematics-1"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -37,83 +37,84 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="BCE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Basic Computer Engineering" />
+                android:background="@drawable/button_border"
+                android:onClick="BCE"
+                android:text="Basic Computer Engineering"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/BME"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="BME"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Basic Mechanical Engineering" />
+                android:background="@drawable/button_border"
+                android:onClick="BME"
+                android:text="Basic Mechanical Engineering"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/BCME"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="BCME"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Basic Civil Engineering And Engineering Mechanics" />
+                android:background="@drawable/button_border"
+                android:onClick="BCME"
+                android:text="Basic Civil Engineering And Engineering Mechanics"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/BEEE"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="BEEE"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Basic Of Electrical And Electronics Engineering" />
+                android:background="@drawable/button_border"
+                android:onClick="BEEE"
+                android:text="Basic Of Electrical And Electronics Engineering"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/ED"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="ED"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Engineering Graphics" />
+                android:background="@drawable/button_border"
+                android:onClick="ED"
+                android:text="Engineering Graphics"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/English"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="English"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="English" />
+                android:background="@drawable/button_border"
+                android:onClick="English"
+                android:text="English"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/Physics"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="Physics"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Engineering Physics" />
+                android:background="@drawable/button_border"
+                android:onClick="Physics"
+                android:text="Engineering Physics"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/Chemistry"
@@ -122,10 +123,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="Chemistry"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Engineering Chemistry" />
+                android:text="Engineering Chemistry"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/Mtwo"
@@ -134,10 +135,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="Mtwo"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Mathematics-2" />
+                android:text="Mathematics-2"
+                android:textColor="@color/colorWhite" />
 
 
 

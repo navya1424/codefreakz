@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb"
+    android:background="@drawable/bgg"
     >
 
 
@@ -27,7 +27,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="KotlinRoadmap1"
                 android:text="Kotlin VS Java"
                 android:textColor="@color/colorWhite" />
@@ -40,7 +40,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="KotlinRoadmap2"
                 android:text="Why learn kotlin?"
                 android:textColor="@color/colorWhite" />
@@ -52,7 +52,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="KotlinYtPlayList1"
                 android:text="Youtube Recommended Course 1"
                 android:textColor="@color/colorWhite" />
@@ -65,7 +65,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="ytthree"
                 android:text="Youtube Recommended Course 2"
                 android:textColor="@color/colorWhite" />
@@ -77,7 +77,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="Kotlininonevideo"
                 android:text="Kotlin In One Video"
                 android:textColor="@color/colorWhite" />
@@ -89,7 +89,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="KotlinFreeCourse1"
                 android:text="Kotlin Free Course(udemy)"
                 android:textColor="@color/colorWhite" />
@@ -101,7 +101,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="KotlinPaidCourse"
                 android:text="Kotlin Paid Course(Udemy)"
                 android:textColor="@color/colorWhite" />
@@ -114,7 +114,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="KotlinInterviewQuestions"
                 android:text="Kotlin Interview Questions"
                 android:textColor="@color/colorWhite" />
@@ -127,7 +127,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="Kotlinnotes"
                 android:text="Kotlin Notes"
                 android:textColor="@color/colorWhite" />
@@ -139,7 +139,7 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
+                android:background="@drawable/button_border"
                 android:onClick="KotlinBook"
                 android:text="Kotlin Book Pdf"
                 android:textColor="@color/colorWhite" />

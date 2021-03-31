@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
     <ScrollView
@@ -26,22 +26,22 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="GitGithubRoadmap1"
-                android:text="Basic Git Commands" />
+                android:text="Basic Git Commands"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/yt_playlist1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="GitYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 1" />
+                android:background="@drawable/button_border"
+                android:onClick="GitYtPlayList1"
+                android:text="Youtube Recommended Course 1"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -50,58 +50,60 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="GitYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 2" />
+                android:background="@drawable/button_border"
+                android:onClick="GitYtPlaylist2"
+                android:text="Youtube Recommended Course 2"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/Gitinonevideo"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Gitinonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Git-Github In One Video" />
+                android:background="@drawable/button_border"
+                android:onClick="Gitinonevideo"
+                android:text="Git-Github In One Video"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/free_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="GitFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Git-Github Free Course1(udemy)" />
+                android:background="@drawable/button_border"
+                android:onClick="GitFreeCourse1"
+                android:text="Git-Github Free Course1(udemy)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/free_course1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="GitFreeCourse2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Git-Github Free Course2(Udacity)" />
+                android:background="@drawable/button_border"
+                android:onClick="GitFreeCourse2"
+                android:text="Git-Github Free Course2(Udacity)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/paid_course1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="GitPaidCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Git-Github Paid Course(Udemy)" />
+                android:background="@drawable/button_border"
+                android:onClick="GitPaidCourse1"
+                android:text="Git-Github Paid Course(Udemy)"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -110,11 +112,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="GitPaidCourse2"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Git-Github Paid Course(Coursera)" />
+                android:background="@drawable/button_border"
+                android:onClick="GitPaidCourse2"
+                android:text="Git-Github Paid Course(Coursera)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/Git"
@@ -123,10 +125,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="GitInterviewQuestions"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Git-Github Interview Questions" />
+                android:text="Git-Github Interview Questions"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -136,10 +138,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="Gitnotes"
-                android:text="Git-Github Notes" />
+                android:text="Git-Github Notes"
+                android:textColor="@color/colorWhite" />
 
 
 

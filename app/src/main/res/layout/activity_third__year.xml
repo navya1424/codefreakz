@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
     <ScrollView
@@ -26,10 +26,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="Toc"
-                android:text="Theory of Computation" />
+                android:text="Theory of Computation"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -37,83 +37,84 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="PM"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Project management" />
+                android:background="@drawable/button_border"
+                android:onClick="PM"
+                android:text="Project management"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/ML"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="ML"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning" />
+                android:background="@drawable/button_border"
+                android:onClick="ML"
+                android:text="Machine Learning"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/IWT"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="IWT"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="INTERNET AND WEB TECHNOLOGY" />
+                android:background="@drawable/button_border"
+                android:onClick="IWT"
+                android:text="INTERNET AND WEB TECHNOLOGY"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/DBMS"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DBMS"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Database Management System" />
+                android:background="@drawable/button_border"
+                android:onClick="DBMS"
+                android:text="Database Management System"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/Cybe"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="Cybe"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Cyber Security" />
+                android:background="@drawable/button_border"
+                android:onClick="Cybe"
+                android:text="Cyber Security"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/CN"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="CN"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Computer Networks" />
+                android:background="@drawable/button_border"
+                android:onClick="CN"
+                android:text="Computer Networks"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/CD"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="CD"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Compiler Design" />
+                android:background="@drawable/button_border"
+                android:onClick="CD"
+                android:text="Compiler Design"
+                android:textColor="@color/colorWhite" />
 
         </LinearLayout>
 

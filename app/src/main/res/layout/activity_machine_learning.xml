@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
     <ScrollView
@@ -25,10 +25,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="MLRoadmap1"
-                android:text="Road Map 1" />
+                android:text="Road Map 1"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -36,24 +36,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLRoadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Road Map 2" />
+                android:background="@drawable/button_border"
+                android:onClick="MLRoadmap2"
+                android:text="Road Map 2"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/yt_playlist1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 1" />
+                android:background="@drawable/button_border"
+                android:onClick="MLYtPlayList1"
+                android:text="Youtube Recommended Course 1"
+                android:textColor="@color/colorWhite" />
 
 
             <Button
@@ -62,69 +62,72 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 2" />
+                android:background="@drawable/button_border"
+                android:onClick="MLYtPlaylist2"
+                android:text="Youtube Recommended Course 2"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/pytoninonevideo"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLinonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning In One Video" />
+                android:background="@drawable/button_border"
+                android:onClick="MLinonevideo"
+                android:text="Machine Learning In One Video"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/free_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning Free Course1(udemy)" />
+                android:background="@drawable/button_border"
+                android:onClick="MLFreeCourse1"
+                android:text="Machine Learning Free Course1(udemy)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/free_course1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLFreeCourse2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning Free Course2(Coursera)" />
+                android:background="@drawable/button_border"
+                android:onClick="MLFreeCourse2"
+                android:text="Machine Learning Free Course2(Coursera)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/paid_course1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="MLPaidCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning Paid Course(Coursera)" />
+                android:background="@drawable/button_border"
+                android:onClick="MLPaidCourse1"
+                android:text="Machine Learning Paid Course(Coursera)"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/paid_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="MLPaidCourse2"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning Paid Course(Udemy)" />
+                android:background="@drawable/button_border"
+                android:onClick="MLPaidCourse2"
+                android:text="Machine Learning Paid Course(Udemy)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/ML"
@@ -133,10 +136,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="MLInterviewQuestions"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Machine Learning Interview Questions" />
+                android:text="Machine Learning Interview Questions"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/project_ideas"
@@ -145,10 +148,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="MLProjectIdeas"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Project Ideas" />
+                android:text="Project Ideas"
+                android:textColor="@color/colorWhite" />
 
 
 

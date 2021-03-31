@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
     <LinearLayout
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginTop="10dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="FirstYear"
             android:text="FIRST YEAR"
             android:textColor="@color/colorWhite" />
@@ -40,7 +40,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="SecondYear"
             android:text="SECOND YEAR"
             android:textColor="@color/colorWhite" />
@@ -52,7 +52,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="ThirdYear"
             android:text="THIRD YEAR"
             android:textColor="@color/colorWhite" />
@@ -78,7 +78,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="OSNOTES"
             android:text="Operating System Notes"
             android:textColor="@color/colorWhite" />
@@ -90,7 +90,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="SENOTES"
             android:text="Software Engineering Notes"
             android:textColor="@color/colorWhite" />
@@ -102,7 +102,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="DBMSNOTES"
             android:text="DBMS Notes"
             android:textColor="@color/colorWhite" />
@@ -115,7 +115,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="DBMSORACLENOTES"
             android:text="Oracle Database Notes"
             android:textColor="@color/colorWhite" />
@@ -127,7 +127,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
-            android:background="#000000"
+            android:background="@drawable/button_border"
             android:onClick="LINUXNOTES"
             android:text="Linux Notes"
             android:textColor="@color/colorWhite" />

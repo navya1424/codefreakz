@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb">
+    android:background="@drawable/bgg">
 
 
     <ScrollView
@@ -25,10 +25,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="DSRoadmap1"
-                android:text="Road Map 1" />
+                android:text="Road Map 1"
+                android:textColor="@color/colorWhite" />
 
             <Button
 
@@ -36,24 +36,24 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSRoadmap2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Road Map 2" />
+                android:background="@drawable/button_border"
+                android:onClick="DSRoadmap2"
+                android:text="Road Map 2"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/yt_playlist1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSYtPlayList1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 1" />
+                android:background="@drawable/button_border"
+                android:onClick="DSYtPlayList1"
+                android:text="Youtube Recommended Course 1"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/yt_playlist2"
@@ -61,70 +61,72 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSYtPlaylist2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Youtube Recommended Course 2" />
+                android:background="@drawable/button_border"
+                android:onClick="DSYtPlaylist2"
+                android:text="Youtube Recommended Course 2"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/DSinonevideo"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSinonevideo"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Science In One Video" />
+                android:background="@drawable/button_border"
+                android:onClick="DSinonevideo"
+                android:text="Data Science In One Video"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/free_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSFreeCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Science Free Course(udemy)" />
+                android:background="@drawable/button_border"
+                android:onClick="DSFreeCourse1"
+                android:text="Data Science Free Course(udemy)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/free_course1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSFreeCourse2"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Science Free Course(Coursera)" />
+                android:background="@drawable/button_border"
+                android:onClick="DSFreeCourse2"
+                android:text="Data Science Free Course(Coursera)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/paid_course1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:onClick="DSPaidCourse1"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Science Paid Course(Udemy)" />
+                android:background="@drawable/button_border"
+                android:onClick="DSPaidCourse1"
+                android:text="Data Science Paid Course(Udemy)"
+                android:textColor="@color/colorWhite" />
+
             <Button
                 android:id="@+id/paid_course"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
-                android:onClick="DSPaidCourse2"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Science Paid Course(Edx)" />
+                android:background="@drawable/button_border"
+                android:onClick="DSPaidCourse2"
+                android:text="Data Science Paid Course(Edx)"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/DS"
@@ -133,10 +135,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="DSInterviewQuestions"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Data Science Interview Questions" />
+                android:text="Data Science Interview Questions"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/project_ideas"
@@ -145,10 +147,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
+                android:background="@drawable/button_border"
                 android:onClick="DSProjectIdeas"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
-                android:text="Project Ideas" />
+                android:text="Project Ideas"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/DSNotes"
@@ -157,10 +159,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="DSnotes"
-                android:text="Data Science Notes" />
+                android:text="Data Science Notes"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/DSBook"
@@ -169,10 +171,10 @@
                 android:layout_margin="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:background="#000000"
-                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_border"
                 android:onClick="DSBook"
-                android:text="Data Science Book Pdf" />
+                android:text="Data Science Book Pdf"
+                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>
