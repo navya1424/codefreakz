@@ -31,7 +31,7 @@ class GitGitHub : AppCompatActivity() {
     }
 
     fun Gitinonevideo(view: View) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(" https://www.youtube.com/watch?v=iR5WIknxdkY&t=19s"))
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=uj4fy4kpaOA"))
         startActivity(browserIntent)
 
     }

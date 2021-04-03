@@ -40,13 +40,7 @@ class DataScience : AppCompatActivity() {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1"))
         startActivity(browserIntent)
     }
-    fun DSinonevideo(view: View) {
-        val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "ETQ97mXXF0"
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
-        intent.putExtra("VIDEO_ID", videoId)
-        startActivity(intent)
-    }
+
     fun DSFreeCourse1(view: View) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.udemy.com/course/data-science-machine-learning-data-analysis-python-r/"))
         startActivity(browserIntent)
@@ -81,11 +75,6 @@ class DataScience : AppCompatActivity() {
 
     }
 
-    fun DSnotes(view: View) {
-        val btn =findViewById<Button>(R.id.DSNotes)
-    }
-    fun DSBook(view: View) {
-        val btn =findViewById<Button>(R.id.DSBook)
-    }
+
 
 }

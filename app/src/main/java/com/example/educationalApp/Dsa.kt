@@ -44,8 +44,5 @@ class Dsa : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun YTPlaylistdsa3(view: View) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/playlist?list=PL4PCksYQGLJM2mKe1n8LnFgcm3FRLhxZ9"))
-        startActivity(intent)
-    }
+
 }

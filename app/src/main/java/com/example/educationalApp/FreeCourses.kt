@@ -101,4 +101,9 @@ class FreeCourses : AppCompatActivity() {
         startActivity(browserIntent)
     }
 
+    fun codefreakz(view: View) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/joinchat/PPBWbuXWGRkyNDg1"))
+        startActivity(browserIntent)
+    }
+
 }

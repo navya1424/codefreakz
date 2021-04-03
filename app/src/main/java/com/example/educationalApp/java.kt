@@ -80,7 +80,7 @@ class java : AppCompatActivity() {
 
     fun javaOneVideo(view: View) {
         val btn =findViewById<Button>(R.id.roadmap_btn2)
-        val videoId = "47slmYwH8Rk"
+        val videoId = "aQatrXw0njs"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         intent.putExtra("VIDEO_ID", videoId)
         startActivity(intent)

@@ -54,17 +54,7 @@
                 android:text="Youtube Recommended Playlist-2"
                 android:textColor="@color/colorWhite" />
 
-            <Button
 
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="@drawable/button_border"
-                android:onClick="YTPlaylistdsa3"
-                android:text="Youtube Recommended Playlist-3"
-                android:textColor="@color/colorWhite" />
 
 
             <Button

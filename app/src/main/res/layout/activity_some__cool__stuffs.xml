@@ -40,7 +40,7 @@
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/button_border"
                 android:onClick="SiliconVally"
-                android:text="Silicon Vally"
+                android:text="Silicon Valley"
                 android:textColor="@color/colorWhite" />
 
             <Button
@@ -89,7 +89,7 @@
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/button_border"
                 android:onClick="Pirates"
-                android:text="Pirates Of Silicon Vally"
+                android:text="Pirates Of Silicon Valley"
                 android:textColor="@color/colorWhite" />
 
             <Button

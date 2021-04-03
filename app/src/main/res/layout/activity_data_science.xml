@@ -68,17 +68,7 @@
                 android:text="Youtube Recommended Course 2"
                 android:textColor="@color/colorWhite" />
 
-            <Button
-                android:id="@+id/DSinonevideo"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="@drawable/button_border"
-                android:onClick="DSinonevideo"
-                android:text="Data Science In One Video"
-                android:textColor="@color/colorWhite" />
+
 
             <Button
                 android:id="@+id/free_course"
@@ -152,29 +142,7 @@
                 android:text="Project Ideas"
                 android:textColor="@color/colorWhite" />
 
-            <Button
-                android:id="@+id/DSNotes"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="@drawable/button_border"
-                android:onClick="DSnotes"
-                android:text="Data Science Notes"
-                android:textColor="@color/colorWhite" />
 
-            <Button
-                android:id="@+id/DSBook"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="@drawable/button_border"
-                android:onClick="DSBook"
-                android:text="Data Science Book Pdf"
-                android:textColor="@color/colorWhite" />
 
 
         </LinearLayout>

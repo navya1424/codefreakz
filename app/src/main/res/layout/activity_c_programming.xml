@@ -16,17 +16,6 @@ android:layout_height="match_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/roadmap_btn"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp"
-            android:background="@drawable/button_border"
-            android:onClick="cRoadmap1"
-            android:text="Road Map 1"
-            android:textColor="@color/colorWhite" />
 
         <Button
 
@@ -38,7 +27,7 @@ android:layout_height="match_parent"
             android:layout_marginBottom="30dp"
             android:background="@drawable/button_border"
             android:onClick="cRoadmap2"
-            android:text="Road Map 2"
+            android:text="Road Map "
             android:textColor="@color/colorWhite" />
 
         <Button
