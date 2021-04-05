@@ -125,7 +125,6 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
                     android:background="@drawable/button_border"
                     android:onClick="ADA"
                     android:text="Analysis and Design of Algorithm"
@@ -135,5 +134,13 @@
 
         </ScrollView>
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        android:layout_marginLeft="40dp"
+        app:adUnitId="ca-app-pub-9871791385305152/9402802364"
+        android:layout_marginTop="700dp"/>
     </RelativeLayout>
 

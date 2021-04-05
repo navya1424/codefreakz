@@ -6,12 +6,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.elearningapp.R
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
+import kotlinx.android.synthetic.main.activity_register.*
 
 class First_Year : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first__year)
-
 
 //        fun BCE(view: View) {
 //            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/folderview?id=1K8CJFJ-B4gLNzQwCwgvxQ17N8be_H7eG"))

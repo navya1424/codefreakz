@@ -3,19 +3,108 @@ package com.example.elearningapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Window
 import android.view.WindowManager
+import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.educationalApp.*
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.InterstitialAd
+import com.google.android.gms.ads.MobileAds
 
 class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
+    private lateinit var mInterstitialAdd : InterstitialAd
+    private lateinit var mInterstitialAdd1 : InterstitialAd
+    private lateinit var mInterstitialAdd2 : InterstitialAd
+    private lateinit var mInterstitialAdd3 : InterstitialAd
+    private lateinit var mInterstitialAdd4 : InterstitialAd
+    private lateinit var mInterstitialAdd5 : InterstitialAd
+    private lateinit var mInterstitialAdd6 : InterstitialAd
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_main)
+
+        mInterstitialAdd = InterstitialAd(this)
+            mInterstitialAdd.adUnitId = "ca-app-pub-9871791385305152/2645822329"
+            mInterstitialAdd.loadAd(AdRequest.Builder().build())
+
+            mInterstitialAdd.adListener = object : AdListener() {
+                override fun onAdClosed() {
+                    Toast.makeText(this@MainActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+                }
+            }
+
+        mInterstitialAdd1 = InterstitialAd(this)
+        mInterstitialAdd1.adUnitId = "ca-app-pub-9871791385305152/4707017061"
+        mInterstitialAdd1.loadAd(AdRequest.Builder().build())
+
+        mInterstitialAdd1.adListener = object : AdListener() {
+            override fun onAdClosed() {
+                Toast.makeText(this@MainActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        mInterstitialAdd2 = InterstitialAd(this)
+        mInterstitialAdd2.adUnitId = "ca-app-pub-9871791385305152/5230611307"
+        mInterstitialAdd2.loadAd(AdRequest.Builder().build())
+
+        mInterstitialAdd2.adListener = object : AdListener() {
+            override fun onAdClosed() {
+                Toast.makeText(this@MainActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+            }
+        }
+        mInterstitialAdd3 = InterstitialAd(this)
+        mInterstitialAdd3.adUnitId = "ca-app-pub-9871791385305152/8636515609"
+        mInterstitialAdd3.loadAd(AdRequest.Builder().build())
+
+        mInterstitialAdd3.adListener = object : AdListener() {
+            override fun onAdClosed() {
+                Toast.makeText(this@MainActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+            }
+        }
+        mInterstitialAdd4 = InterstitialAd(this)
+        mInterstitialAdd4.adUnitId = "ca-app-pub-9871791385305152/6010352264"
+        mInterstitialAdd4.loadAd(AdRequest.Builder().build())
+
+        mInterstitialAdd4.adListener = object : AdListener() {
+            override fun onAdClosed() {
+                Toast.makeText(this@MainActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        mInterstitialAdd5 = InterstitialAd(this)
+        mInterstitialAdd5.adUnitId = "ca-app-pub-9871791385305152/3384188928"
+        mInterstitialAdd5.loadAd(AdRequest.Builder().build())
+
+        mInterstitialAdd5.adListener = object : AdListener() {
+            override fun onAdClosed() {
+                Toast.makeText(this@MainActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+            }
+        }
+        mInterstitialAdd6 = InterstitialAd(this)
+        mInterstitialAdd6.adUnitId = "ca-app-pub-9871791385305152/9758025587"
+        mInterstitialAdd6.loadAd(AdRequest.Builder().build())
+
+        mInterstitialAdd6.adListener = object : AdListener() {
+            override fun onAdClosed() {
+                Toast.makeText(this@MainActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+            }
+        }
+
         title = "KotlinApp"
         val item = ArrayList<CustomClass>()
 
@@ -87,8 +176,11 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          startActivity(intent)
      }
       else   if (position==1){
-            val intent = Intent(this,ccpppage::class.java)
-            startActivity(intent)
+         if(mInterstitialAdd.isLoaded){
+             mInterstitialAdd.show()
+         }
+             val intent = Intent(this, ccpppage::class.java)
+             startActivity(intent)
         }
      else   if (position==2){
          val intent = Intent(this, java::class.java)
@@ -99,6 +191,9 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          startActivity(intent)
      }
      else   if (position==4){
+         if(mInterstitialAdd1.isLoaded){
+             mInterstitialAdd1.show()
+         }
          val intent = Intent(this, Dsa::class.java)
          startActivity(intent)
      }
@@ -107,10 +202,17 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          startActivity(intent)
      }
      else   if (position==6){
+         if(mInterstitialAdd2.isLoaded){
+             mInterstitialAdd2.show()
+         }
          val intent = Intent(this, androiddevelopment::class.java)
          startActivity(intent)
      }
      else   if (position==7){
+         if(mInterstitialAdd3.isLoaded){
+             mInterstitialAdd3.show()
+         }
+
          val intent = Intent(this, webdevelopment::class.java)
          startActivity(intent)
      }
@@ -119,11 +221,19 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          startActivity(intent)
      }
      else if (position==9) {
+
+         if(mInterstitialAdd5.isLoaded){
+             mInterstitialAdd5.show()
+         }
+
          val intent = Intent(this, CP::class.java)
          startActivity(intent)
      }
 
      else if (position==10) {
+         if(mInterstitialAdd6.isLoaded){
+             mInterstitialAdd6.show()
+         }
          val intent = Intent(this, GitGitHub::class.java)
          startActivity(intent)
      }
@@ -144,6 +254,10 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          startActivity(intent)
      }
      else if (position==15) {
+         if(mInterstitialAdd4.isLoaded){
+             mInterstitialAdd4.show()
+         }
+
          val intent = Intent(this, CollegeRoadmap::class.java)
          startActivity(intent)
      }
@@ -156,6 +270,7 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          startActivity(intent)
      }
      }
+
     }
 
 

@@ -10,8 +10,13 @@
         android:icon="@drawable/logo666666666"
         android:label="Codefreakz"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:name="androidx.multidex.MultiDexApplication"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9871791385305152~5551526574"/>
+
         <activity android:name="com.example.educationalApp.Coding_practice_websites"></activity>
         <activity android:name="com.example.educationalApp.Job_Opportunities" />
         <activity android:name="com.example.educationalApp.Some_Cool_Stuffs" />

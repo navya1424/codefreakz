@@ -6,11 +6,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.elearningapp.R
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
+import kotlinx.android.synthetic.main.activity_register.*
 
 class Second_Year : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second__year)
+
+        MobileAds.initialize(this@Second_Year)
+        val adRequest1 = AdRequest.Builder().build()
+        adView.loadAd(adRequest1)
     }
     fun Oopm(view: View) {
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/u/2/folders/1DY1mXmvwbmjPlgiRMZWsG3kKsuVN7J_Z"))

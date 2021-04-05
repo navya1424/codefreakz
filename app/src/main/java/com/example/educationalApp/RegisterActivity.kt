@@ -7,6 +7,8 @@ import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.google.ads.AdSize
+import com.google.android.gms.ads.*
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -18,14 +20,18 @@ import com.google.firebase.FirebaseException
 import com.google.firebase.auth.*
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_register.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 import java.util.concurrent.TimeUnit
+import com.google.ads.AdSize.BANNER as BANNER
+import com.google.android.gms.ads.interstitial.InterstitialAd as InterstitialAd1
 
 class RegisterActivity : AppCompatActivity() {
+//     lateinit var mInterstitialAdd : InterstitialAd
     //    private var mAuth: FirebaseAuth? = null
     private lateinit var auth: FirebaseAuth
 //    private var edtPhone: EditText? = null
@@ -40,7 +46,30 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
+
+        MobileAds.initialize(this@RegisterActivity)
+        val adRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
+
+//        mInterstitialAdd = InterstitialAd(this)
+//        mInterstitialAdd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+//        mInterstitialAdd.loadAd(AdRequest.Builder().build())
 //
+//        mInterstitialAdd.adListener = object : AdListener() {
+//            override fun onAdClosed() {
+//                Toast.makeText(this@RegisterActivity, "Add Closed", Toast.LENGTH_SHORT).show()
+////                Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+//            }
+//        }
+
+//        mInterstitialAdd.adListener = object : AdListener{} {
+//            fun onAdClosed() {
+//            Toast.makeText(this, "Add Closed", Toast.LENGTH_SHORT).show()
+//        }
+
+
+
 //        mAuth = FirebaseAuth.getInstance()
 //        edtPhone = findViewById(R.id.idEdtPhoneNumber)
 //        edtOTP = findViewById(R.id.idEdtOtp)
@@ -76,8 +105,16 @@ class RegisterActivity : AppCompatActivity() {
         auth = Firebase.auth
 
         findViewById<SignInButton>(R.id.SignInButton).setOnClickListener {
+
+//            if (mInterstitialAdd.isLoaded) {
+//                mInterstitialAdd.show()
+//            }
+//            else {
+//                Log.d("TAG", "The Interstitial Add was't Loaded Yet!!")
+//            }
             signIn()
         }
+        
     }
 
     private fun signIn() {
@@ -214,3 +251,4 @@ class RegisterActivity : AppCompatActivity() {
 //        signInWithCredential(credential)
 //    }
 }
+

@@ -17,6 +17,19 @@
             android:layout_height="fill_parent"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="CODING WEBSITES"
+                android:textStyle="bold|italic"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="30dp"
+                />
+
             <Button
                 android:id="@+id/wthree"
                 android:layout_width="fill_parent"
