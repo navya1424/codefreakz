@@ -202,17 +202,7 @@
                 android:text="Reddit Kotlin Community"
                 android:textColor="@color/colorWhite" />
 
-            <Button
-                android:id="@+id/awsdiscord"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:background="@drawable/button_border"
-                android:onClick="AWSDisCord"
-                android:text="AWS Discord Server"
-                android:textColor="@color/colorWhite" />
+
 
             <Button
                 android:id="@+id/pythondiscord"

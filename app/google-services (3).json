@@ -1,0 +1,153 @@
+{
+  "project_info": {
+    "project_number": "30970200531",
+    "project_id": "educationalapp-848aa",
+    "storage_bucket": "educationalapp-848aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30970200531:android:d4a2d919853dc1af896f26",
+        "android_client_info": {
+          "package_name": "com.codefreakz.educationalApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30970200531-7i4h410ff0u96akpj5gcrsgujk8tr817.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codefreakz.educationalApp",
+            "certificate_hash": "901e0a28db49d99f7cfacf9994b300746873547b"
+          }
+        },
+        {
+          "client_id": "30970200531-csi0ot8d9cak1u373lgo7nt06eecsuh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codefreakz.educationalApp",
+            "certificate_hash": "8275824791b00ee98c95be23742357af56ceaa74"
+          }
+        },
+        {
+          "client_id": "30970200531-v2hq7u458fnh10gel6uevho5qrqksuc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codefreakz.educationalApp",
+            "certificate_hash": "e941060edc8f99d1f8cdd6781ab641756d6abe24"
+          }
+        },
+        {
+          "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA5kV3TdpQk9S0_jOCXxfrxxXOEjEPqlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30970200531:android:0ba29d03a3888b2b896f26",
+        "android_client_info": {
+          "package_name": "com.codfreak.elearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30970200531-73k60qvsu4n1cjs75nl6a1ptuf0dhr0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codfreak.elearningapp",
+            "certificate_hash": "e941060edc8f99d1f8cdd6781ab641756d6abe24"
+          }
+        },
+        {
+          "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA5kV3TdpQk9S0_jOCXxfrxxXOEjEPqlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30970200531:android:04872f5e7e64500c896f26",
+        "android_client_info": {
+          "package_name": "com.example.elearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30970200531-fa5np5dqs9j5qhpkio3ktmkgfqirjbfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearningapp",
+            "certificate_hash": "8275824791b00ee98c95be23742357af56ceaa74"
+          }
+        },
+        {
+          "client_id": "30970200531-jr2qkgv6vo2hoth347s10dase72h13in.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearningapp",
+            "certificate_hash": "901e0a28db49d99f7cfacf9994b300746873547b"
+          }
+        },
+        {
+          "client_id": "30970200531-psu44nqsan5ssp38aanhtj58rr76ngar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearningapp",
+            "certificate_hash": "e941060edc8f99d1f8cdd6781ab641756d6abe24"
+          }
+        },
+        {
+          "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA5kV3TdpQk9S0_jOCXxfrxxXOEjEPqlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

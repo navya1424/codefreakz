@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bgg"
-    tools:context="com.example.educationalApp.Some_Cool_Stuffs">
+    tools:context="com.codefreak.educationalApp.Some_Cool_Stuffs">
 
 
     <ScrollView

@@ -9,7 +9,7 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
     defaultConfig {
-        applicationId "com.example.elearningapp"
+        applicationId "com.codefreak.educationalApp"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -19,7 +19,7 @@ android {
     }
     buildTypes {
         release {
-            multiDexKeepFile file('multidex-config.txt')
+           // multiDexKeepFile file('multidex-config.txt')
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -49,18 +49,18 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
 
-    implementation platform('com.google.firebase:firebase-bom:26.7.0')
+  implementation platform('com.google.firebase:firebase-bom:26.7.0')
 
     // Declare the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-auth-ktx'
+   implementation 'com.google.firebase:firebase-auth-ktx'
 
     // Also declare the dependency for the Google Play services library and specify its version
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
     implementation 'com.google.android.gms:play-services-ads:19.8.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
-//    implementation 'com.google.firebase:firebase-auth:20.0.3'
+    implementation 'com.google.firebase:firebase-auth:20.0.3'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation "androidx.browser:browser:1.2.0"
 

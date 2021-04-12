@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.elearningapp">
+    package="com.codefreak.educationalApp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,39 +15,39 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9871791385305152~5551526574"/>
+            android:value="ca-app-pub-4427927167262449~3114194790"/>
 
-        <activity android:name="com.example.educationalApp.Coding_practice_websites"></activity>
-        <activity android:name="com.example.educationalApp.Job_Opportunities" />
-        <activity android:name="com.example.educationalApp.Some_Cool_Stuffs" />
-        <activity android:name="com.example.educationalApp.First_Year" />
-        <activity android:name="com.example.educationalApp.Third_Year" />
-        <activity android:name="com.example.educationalApp.Second_Year" />
-        <activity android:name="com.example.educationalApp.FreeCourses" />
-        <activity android:name="com.example.educationalApp.JavaScript" />
-        <activity android:name="com.example.educationalApp.Kotlin" />
-        <activity android:name="com.example.educationalApp.GitGitHub" />
-        <activity android:name="com.example.educationalApp.MachineLearning" />
-        <activity android:name="com.example.educationalApp.CollegeRoadmap" />
-        <activity android:name="com.example.educationalApp.DataScience" />
-        <activity android:name="com.example.educationalApp.CProgramming" />
-        <activity android:name="com.example.educationalApp.CP" />
-        <activity android:name="com.example.educationalApp.Dsa" />
-        <activity android:name=".EngSubs" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.codefreak.educationalApp.Coding_practice_websites"></activity>
+        <activity android:name="com.codefreak.educationalApp.Job_Opportunities" />
+        <activity android:name="com.codefreak.educationalApp.Some_Cool_Stuffs" />
+        <activity android:name="com.codefreak.educationalApp.First_Year" />
+        <activity android:name="com.codefreak.educationalApp.Third_Year" />
+        <activity android:name="com.codefreak.educationalApp.Second_Year" />
+        <activity android:name="com.codefreak.educationalApp.FreeCourses" />
+        <activity android:name="com.codefreak.educationalApp.JavaScript" />
+        <activity android:name="com.codefreak.educationalApp.Kotlin" />
+        <activity android:name="com.codefreak.educationalApp.GitGitHub" />
+        <activity android:name="com.codefreak.educationalApp.MachineLearning" />
+        <activity android:name="com.codefreak.educationalApp.CollegeRoadmap" />
+        <activity android:name="com.codefreak.educationalApp.DataScience" />
+        <activity android:name="com.codefreak.educationalApp.CProgramming" />
+        <activity android:name="com.codefreak.educationalApp.CP" />
+        <activity android:name="com.codefreak.educationalApp.Dsa" />
+        <activity android:name="com.codefreak.educationalApp.EngSubs" />
+        <activity android:name="com.codefreak.educationalApp.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".webdevelopment" />
-        <activity android:name=".androiddevelopment" />
-        <activity android:name="com.example.educationalApp.python" />
-        <activity android:name="com.example.educationalApp.java" />
-        <activity android:name=".ccpppage" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name="com.codefreak.educationalApp.webdevelopment" />
+        <activity android:name="com.codefreak.educationalApp.androiddevelopment" />
+        <activity android:name="com.codefreak.educationalApp.python" />
+        <activity android:name="com.codefreak.educationalApp.java" />
+        <activity android:name="com.codefreak.educationalApp.ccpppage" />
+        <activity android:name="com.codefreak.educationalApp.MainActivity" />
+        <activity android:name="com.codefreak.educationalApp.RegisterActivity" />
     </application>
 
 </manifest>
